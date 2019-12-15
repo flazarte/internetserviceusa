@@ -1,7 +1,15 @@
+
+    <?php
+      global $product;
+      //current number for city to call
+      $citynumber = get_field('city_number');
+
+ ?>
+
 <div class="testimonials-item">
         <div class="user row">
           <div class="col-lg-3 col-md-4">
-            <div class="user_image"><a href="https://www.att.com/smallbusiness/explore/index.html" target="_blank">
+            <div class="user_image"><a href="https://www.att.com/smallbusiness/explore/index.html" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/att-business.png" alt="internet service usa" title=""></a>
                <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
                  AT&amp;T Business </br>
@@ -18,12 +26,12 @@
           </div>
           <div class="testimonials-caption col-lg-9 col-md-8">
             <div class="user_text ">
-              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#busi-info" role="button" aria-expanded="false" aria-controls="resi-info">DSL</button></span><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#busi-info" role="button" aria-expanded="false" aria-controls="resi-info">IPBB</button></span></br>AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 100% of Chicago with its DSL-based business internet services.</p>
+              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#busi-info" role="button" aria-expanded="false" aria-controls="resi-info">DSL</button></span><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#busi-info" role="button" aria-expanded="false" aria-controls="resi-info">IPBB</button></span></br>AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about <?php echo  $per_city_coverage;?>% of <?php echo $product->get_name(); ?> with its DSL-based business internet services.</p>
               
 
             </div>
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php include '../includes/phone/at-wireless.php';?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/at-wireless.php';?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
                      <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#busi-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
            
           </div>
@@ -34,7 +42,7 @@
   
   <div class="card-body ex">
     <div class="card-header">
-    AT&T BUSINESS INTERNET IN CHICAGO
+    AT&T BUSINESS INTERNET IN <?php echo $product->get_name(); ?>
   </div>
     <div class="card card-body">
     <div class="row">
@@ -44,7 +52,7 @@ AT&T INTERNET PLANS
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><div class="row">
   <div class="col-sm-5 col-md-6" data-toggle="tooltip" data-placement="bottom" title="Click for more info"><a data-toggle="collapse" href="#at-busi" role="button" aria-expanded="false" aria-controls="resi-info">Business Internet 50:</a> </br>$50.00/mo for 50 Mbps</div>
-  <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><a class="btn btn-primary btn-sm"  href="tel:844-593-1734" role="button"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span>(844)593-1734</a></div>
+  <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><a class="btn btn-primary btn-sm"  href="tel:844-593-1734" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span>(844)593-1734</a></div>
 </div>
 <div class="collapse" id="at-busi">
   <div class="card card-body ex">
@@ -65,7 +73,7 @@ AT&T INTERNET PLANS
   <div class="card-header"><small>SET UP AT&T INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php include '../includes/phone/at-wireless.php';?>" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/at-wireless.php';?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
 </div>
 <div class="container">
   <div class="row align-center">
@@ -87,9 +95,9 @@ AT&T INTERNET PLANS
   <div class="col-sm-8">
       <br>
       <div class="card ex">
-  <h5 class="card-header">AT&T ACCESS IN CHICAGO, ILLINOIS</h5>
+  <h5 class="card-header">AT&T ACCESS IN <?php echo $product->get_name(); ?></h5>
   <div class="card-body">
-    <p class="card-text">AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 100% of Chicago with its DSL-based business internet services.</p>
+    <p class="card-text">AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 100% of <?php echo $product->get_name(); ?> with its DSL-based business internet services.</p>
   </div>
 </div>
   </div>
