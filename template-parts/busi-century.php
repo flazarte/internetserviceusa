@@ -1,7 +1,13 @@
+  <?php
+      global $product;
+      //current number for city to call
+      $citynumber = get_field('city_number');
+
+ ?>
 <div class="testimonials-item">
         <div class="user row">
           <div class="col-lg-3 col-md-4">
-            <div class="user_image"><a href="https://www.centurylink.com/small-business/" target="_blank">
+            <div class="user_image"><a href="https://www.centurylink.com/small-business/" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-2-250x130.jpg" alt="internet service usa" title=""></a>
               <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">Century Link </br>
               <span class="fa fa-star checked"></span>
@@ -17,10 +23,10 @@
           </div>
           <div class="testimonials-caption col-lg-9 col-md-8">
             <div class="user_text">
-              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs" data-toggle="collapse" href="#century-info" role="button" aria-expanded="false" aria-controls="resi-info">FIBER</button></span><span><button class="btn btn-primary btn-xs" data-toggle="collapse" href="#century-info" role="button" aria-expanded="false" aria-controls="resi-info">COPPER</button></span></br>CenturyLink Business publicly lists small business internet plans ranging from $109.99-$279.99/mo with download speeds from 40mbps up to 1,000mbps. In total, CenturyLink Business offers fiber-based business services to approximately 12% of Chicago.</p>
+              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs" data-toggle="collapse" href="#century-info" role="button" aria-expanded="false" aria-controls="resi-info">FIBER</button></span><span><button class="btn btn-primary btn-xs" data-toggle="collapse" href="#century-info" role="button" aria-expanded="false" aria-controls="resi-info">COPPER</button></span></br>CenturyLink Business publicly lists small business internet plans ranging from $109.99-$279.99/mo with download speeds from 40mbps up to 1,000mbps. In total, CenturyLink Business offers fiber-based business services to approximately 12% of <?php echo $product->get_name(); ?>.</p>
             </div>
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php include '../includes/phone/centurylink.php';?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/centurylink.php';?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#century-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
             
           </div>
@@ -32,7 +38,7 @@
   
   <div class="card-body ex">
     <div class="card-header">
-    CENTURYLINK INTERNET IN CHICAGO
+    CENTURYLINK INTERNET IN <?php echo $product->get_name(); ?>
   </div>
     <div class="card card-body">
     <div class="row">
@@ -115,7 +121,7 @@ CENTURYLINK INTERNET PLANS
   <div class="card-header"><small>SET UP CENTURYLINK INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php include '../includes/phone/centurylink.php';?>" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/centurylink.php';?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
 </div>
 <div class="container">
   <div class="row align-center">
@@ -137,9 +143,9 @@ CENTURYLINK INTERNET PLANS
   <div class="col-sm-8">
       <p>Plans may not be available in all areas or to all customers and can expire at any time.</p><br>
       <div class="card ex">
-  <h5 class="card-header">CENTURY BUSINESS IN CHICAGO, ILLINOIS</h5>
+  <h5 class="card-header">CENTURY BUSINESS IN <?php echo $product->get_name(); ?></h5>
   <div class="card-body">
-    <p class="card-text">CenturyLink Business publicly lists small business internet plans ranging from $109.99-$279.99/mo with download speeds from 40mbps up to 1,000mbps. In total, CenturyLink Business offers fiber-based business services to approximately 12% of Chicago.</p>
+    <p class="card-text">CenturyLink Business publicly lists small business internet plans ranging from $109.99-$279.99/mo with download speeds from 40mbps up to 1,000mbps. In total, CenturyLink Business offers fiber-based business services to approximately 12% of <?php echo $product->get_name(); ?>.</p>
    
   </div>
 </div>

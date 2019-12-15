@@ -1,9 +1,16 @@
+  <?php
+      global $product;
+      //current number for city to call
+      $citynumber = get_field('city_number');
+
+ ?>
+
 <div class="testimonials-item">
         <div class="user row">
           <div class="col-lg-3 col-md-4">
-            <div class="user_image"><a href="https://business.comcast.com/" target="_blank">
+            <div class="user_image"><a href="https://business.comcast.com/" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-3-250x130.jpg" alt="internet service usa" title=""></a>
-              <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">Comcast Business </br>
+              <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">Comcast</br>
               <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star-half checked"></span>
@@ -17,10 +24,10 @@
           </div>
           <div class="testimonials-caption col-lg-9 col-md-8">
             <div class="user_text">
-              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#comcast-busi-info" role="button" aria-expanded="false" aria-controls="resi-info">CABLE</button></span></br>Comcast Business publicly lists small business internet plans ranging from $69.95-$499.95/mo with download speeds from 25mbps up to 1,000mbps. In total, Comcast Business offers cable-based business services to approximately 83% of Chicago.</p>
+              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#comcast-busi-info" role="button" aria-expanded="false" aria-controls="resi-info">CABLE</button></span></br>Comcast Business publicly lists small business internet plans ranging from $69.95-$499.95/mo with download speeds from 25mbps up to 1,000mbps. In total, Comcast Business offers cable-based business services to approximately 83% of <?php echo $product->get_name(); ?>.</p>
             </div>
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php include '../includes/phone/comcast.php';?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/comcast.php';?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#comcast-busi-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
             
           </div>
@@ -32,7 +39,7 @@
   
   <div class="card-body ex">
     <div class="card-header">
-    COMCAST INTERNET IN CHICAGO
+    COMCAST INTERNET IN <?php echo $product->get_name(); ?>
   </div>
     <div class="card card-body">
     <div class="row">
@@ -112,7 +119,7 @@ COMCAST INTERNET PLANS
   <div class="card-header"><small>SET UP COMCAST INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php include '../includes/phone/comcast.php';?>" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/comcast.php';?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
 </div>
 <div class="container">
   <div class="row align-center">
@@ -134,9 +141,9 @@ COMCAST INTERNET PLANS
   <div class="col-sm-8">
       <p>We've noticed that plans offered by Comcast Business vary by region, so be sure to verify pricing and plan terms with them before ordering service as all plans or promotions may not be available in all areas or to all customers and can expire at any time. </p><br>
       <div class="card ex">
-  <h5 class="card-header">COMCAST BUSINESS IN CHICAGO, ILLINOIS</h5>
+  <h5 class="card-header">COMCAST BUSINESS IN <?php echo $product->get_name(); ?></h5>
   <div class="card-body">
-    <p class="card-text">Comcast Business publicly lists small business internet plans ranging from $69.95-$499.95/mo with download speeds from 25mbps up to 1,000mbps. In total, Comcast Business offers cable-based business services to approximately 83% of Chicago.</p>
+    <p class="card-text">Comcast Business publicly lists small business internet plans ranging from $69.95-$499.95/mo with download speeds from 25mbps up to 1,000mbps. In total, Comcast Business offers cable-based business services to approximately 83% of <?php echo $product->get_name(); ?>.</p>
    
   </div>
 </div>

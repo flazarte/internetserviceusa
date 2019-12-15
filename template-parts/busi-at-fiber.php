@@ -1,7 +1,14 @@
+  <?php
+      global $product;
+      //current number for city to call
+      $citynumber = get_field('city_number');
+
+ ?>
+
 <div class="testimonials-item" >
         <div class="user row">
           <div class="col-lg-3 col-md-4">
-            <div class="user_image"><a href="https://www.att.com/smallbusiness/explore/quickflow/small-business?source=IBQS2500C00080C4L" target="_blank">
+            <div class="user_image"><a href="https://www.att.com/smallbusiness/explore/quickflow/small-business?source=IBQS2500C00080C4L" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/at-fiber.jpg" alt="internet service usa" title=""></a>
               <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
                  AT&T Fiber </br>
@@ -20,10 +27,10 @@
           </div>
           <div class="testimonials-caption col-lg-9 col-md-8">
             <div class="user_text ">
-              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#busi-fiber-info" role="button" aria-expanded="false" aria-controls="resi-info">FIBER</button></span></br>AT&T Fiber is an internet service provider offering Fiber coverage to 11.9% and a fastest speed 1,000 Mbps of Chicago. AT&T Business broadband packages start at $50/month.</p>
+              <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#busi-fiber-info" role="button" aria-expanded="false" aria-controls="resi-info">FIBER</button></span></br>AT&T Fiber is an internet service provider offering Fiber coverage to 11.9% and a fastest speed 1,000 Mbps of <?php echo $product->get_name(); ?>. AT&T Business broadband packages start at $50/month.</p>
             </div>  
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php include '../includes/phone/at-fiber.php';?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/at-fiber.php';?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#busi-fiber-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
             
           </div>
@@ -36,7 +43,7 @@
   
   <div class="card-body ex">
     <div class="card-header">
-    AT&T INTERNET IN CHICAGO
+    AT&T INTERNET IN <?php echo $product->get_name(); ?>
   </div>
     <div class="card card-body">
     <div class="row">
@@ -61,9 +68,9 @@ AT&T FIBER PLANS
 
   </ul>
    <div class="card ex">
-  <h5 class="card-header">AT&T FIBER IN CHICAGO, ILLINOIS</h5>
+  <h5 class="card-header">AT&T FIBER IN <?php echo $product->get_name(); ?></h5>
   <div class="card-body">
-    <p class="card-text">AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 12% of Chicago with its fiber-based business internet services.</p>
+    <p class="card-text">AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 12% of <?php echo $product->get_name(); ?> with its fiber-based business internet services.</p>
    
   </div>
 </div>
@@ -75,7 +82,7 @@ AT&T FIBER PLANS
   <div class="card-header"><small>SET UP AT&T INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php include '../includes/phone/at-fiber.php';?>" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/at-fiber.php';?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
 </div>
 <div class="container">
   <div class="row align-center">

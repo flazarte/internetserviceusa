@@ -475,7 +475,7 @@ get_header();
     <div class="container">
         <div class="row main justify-content-center">
             <div class="media-container-column col-12 col-lg-3 col-md-4">
-                <div class="mbr-section-btn align-left py-4"><a class="btn btn-primary display-4" href="tel:312-335-9100"><span class="mbri-users mbr-iconfont mbr-iconfont-btn"></span>312-335-9100</a></div>
+                <div class="mbr-section-btn align-left py-4"><a class="btn btn-primary display-4" href="tel:312-335-9100"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span>312-335-9100</a></div>
             </div>
             <div class="media-container-column title col-12 col-lg-7 col-md-6">
                 <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">Still undecided? Talk to us.</h2>
@@ -655,7 +655,7 @@ get_header();
 <br>
 <br>With the right security system, you’ll pay lower insurance premiums and be at peace knowing your family is safe. Get in touch with our agents today and we’ll help you to access a tamper-proof home security system.</p>
                 </div>
-                <div class="mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php echo $citynumber;?></a>
+                <div class="mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
                     <a class="btn btn-sm btn-white-outline display-4" href="#secbundles"><span class="mbri-protect mbr-iconfont mbr-iconfont-btn"></span>Security Bundles</a></div>
             </div>
         </div>
@@ -719,7 +719,7 @@ get_header();
 Basic ADT Monitoring starting at $27.99/mo.</p>
             </div>  
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $adt;?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php echo $adt;?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $adt;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $adt;?></a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-infoadt" role="button" aria-expanded="false" aria-controls="resi-infoadt"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
             
           </div>
@@ -835,7 +835,7 @@ Home Security Bundles
   <div class="card-header"><small>SET UP ADT SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php include '../includes/phone/adt.php';?>" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/adt.php';?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $adt;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $adt;?></a>
 </div>
  <div class="container">
   <div class="row align-center">
@@ -870,7 +870,7 @@ Home Security Bundles
 <div class="testimonials-item" >
         <div class="user row">
           <div class="col-lg-3 col-md-4">
-            <div class="user_image"><a href="https://www.vivint.com/" target="_blank">
+            <div class="user_image"><a href="https://www.vivint.com/" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-15-250x130.jpg" alt="internet service usa" title="" ></a>
               <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
                  VIVINT Smart Home
@@ -892,7 +892,7 @@ Home Security Bundles
 Vivint Monitoring starting at $29.99/mo.</p>
             </div>  
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $vivint;?>"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"></span><?php echo $vivint;?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $vivint;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $vivint;?></a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-info1" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
             
           </div>
@@ -995,7 +995,7 @@ Home Security Bundles
   <div class="card-header"><small>SET UP VIVINT SMART HOME</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php include '../includes/phone/vivint.php';?>" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"></span><?php include '../includes/phone/vivint.php';?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $vivint;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $vivint;?></a>
 </div>
  <div class="container">
   <div class="row align-center">
