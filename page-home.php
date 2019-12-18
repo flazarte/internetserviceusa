@@ -2,108 +2,160 @@
 get_header();
 ?>
 
-<section class="header13 cid-rtlCdSERoG" id="header13-u">
+ <!-- Page Content -->
+  <div class="container-fluid">
+    <section class="placeholder-con">
+ </section>
+ <section class="engine"><a href=""></a></section><section class="cid-rtgokFkwN6" id="header2-5">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(3, 58, 129);">
-    </div>
- <div class="container">
-        <div class="mbr-media show-modal align-center pb-4 mb-4 pt-5" data-modal=".modalWindow">
-            
-        </div>
-        <?php  $hometitle = get_field('title'); ?>
-        <h1 class="mbr-section-title align-center pb-3 mbr-bold mbr-fonts-style display-1">
-            <?php echo $hometitle;?></h1>
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(3, 58, 129);"></div>
 
-        <h2 class="mbr-section-subtitle mbr-fonts-style display-5 align-center">
-          <?php  $homedesc = get_field('description'); ?>
-          <strong><?php echo $homedesc;?></strong></h2>
-
-      <!--  <div class="mbr-media show-modal align-center pb-4 mb-4 pt-5" data-modal=".modalWindow">
-            <span class="mbr-icofont mbri-play" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-        </div> -->
-
-        <div class="container mt-5 pt-5 pb-5">
-           <div class="media-container-column" data-form-type="formoid">
-             
-                <form action="" method="GET" class="mbr-form form-with-styler">
-                    <div class="row justify-content-center form-inline">
-                        
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                        </div>
-                    </div>
-                    <div class="dragArea row justify-content-center form-inline">
-                        
-                        
-                        <div data-for="phone" class="col-auto form-group ">
-                             <form role="search" method="get" class="search-field" action="<?php echo esc_url( home_url( '/' ) ) ?>">
-          <label>
-            <span class="screen-reader-text"><?php _x( 'Search for:', 'label' )?></span>
-            <input type="search" class="zip" placeholder="<?php echo esc_attr_x( ' Enter Zip Code ', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" />
-          </label>
-              <!-- <button type="submit" class="search-submit"><i class="fa fa-search"></i></button> -->
-          </form>
-           <!-- <div class="col-auto buttons-wrap"><button type="submit" class="btn btn-primary display-4" name="searchButton"><span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Search</button></div> -->
-                        </div>
-                       
-                    </div>
-                </form>
-    </div>
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    Internet Service Provider USA</h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">Internet Service USA connects you with the best internet service providers and we take time to study each of them.</p>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://internetserviceusa.com/usa/search.php" target="_blank"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Zip Code Search</a> 
+                    <a class="btn btn-md btn-white-outline display-4" href="https://internetserviceusa.com/speedtest/" target="_blank"><span class="mbri-speed mbr-iconfont mbr-iconfont-btn"></span>Speedtest</a></div>
+            </div>
         </div>
     </div>
-  </section>
-  <!-- Page Content -->
-  <div class="container-fluid">
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="fas fa-arrow-down"></i>
+        </a>
+    </div>
+</section>
+
+
+    
     <div class="row">
         
       <!-- Blog Entries Column -->
       <div class="col-md-8">
 
+<section class="section-table cid-rtgvspRekY" id="table1-6">
 
-        <h1 class="my-4 blue">Internet Service USA
-          <small>Blog Post</small>
-        </h1>
-
-        <?php
-				    $args = array(
-				        'post_type' => 'post',
-				    	'posts_per_page' => 6,
-              'post_status' => 'publish',
-				    );
-
-			    	$post_query = new WP_Query($args);
-					if($post_query->have_posts() ) {
-			  		while($post_query->have_posts() ) {
-			    	$post_query->the_post();
-			    ?>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-        	<?php 
-							$size = 'featured-post-img'; 
-							$imgURL = $imgHero['sizes'][$size];
-              $description = get_field('description');
-              $exurl = get_field('external_url');
-							$featuredImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'featured-post-img' );
-						?>
-            <a <?php if($exurl == True) :?>href="<?php echo $exurl; ?>" rel="nofollow" <?php else :?>href="<?php the_permalink(); ?>" <?php endif ;?>>
-          <img class="card-img-top" src="<?= $featuredImg[0]; ?>"></a>
-          <div class="card-body"><a <?php if($exurl == True) :?>href="<?php echo $exurl; ?>" rel="nofollow" <?php else :?>href="<?php the_permalink(); ?>" <?php endif ;?>>
-            <h2 class="card-title"><?php the_title(); ?></h2></a>
-            <p class="card-text"><?php echo  wp_trim_words( $description, $num_words = 30, $more = '...');?></p>
-            <a <?php if($exurl == True) :?>href="<?php echo $exurl; ?>" rel="nofollow" <?php else :?>href="<?php the_permalink(); ?>" <?php endif ;?> class="btn btn-primary" target="_blank">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            <?php
-                
-                $author = get_the_author();
-              ?>
-            Category: <?php print_r(get_primary_category(get_the_ID()), true); ?> | <em class="author-italic">Posted by: <?php echo $author;?></em>           
+  
+  
+  <div class="container container-table">
+      <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-1"><strong>Check Your Broadband Statistics in Each State</strong></h2>
+      <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5"><strong>To ensure you get the best internet services, we’ll only recommend reputable internet service providers. Please select your location or state below.</strong></h3>
+      <div class="table-wrapper">
+        <div class="container">
+          <div class="row search">
+            <div class="col-md-6"></div>
           </div>
         </div>
 
-        <?php  } } ?> 
+        <div class="container scroll">
+          <table class="table isSearch" cellspacing="0">
+            <thead>
+              <tr class="table-heads align-center">       
+              <th class="head-item mbr-fonts-style display-7 blue">
+                      State</th><th class="head-item mbr-fonts-style display-7 blue"> Broadband Coverage</th><th class="head-item mbr-fonts-style display-7 blue">Average State Speed</th><th class="head-item mbr-fonts-style display-7 blue"><strong>Option</strong>
+                      </th></tr>
+            </thead>
+
+            <tbody>
+
+             <?php
+
+             global $product;
+
+              $term = get_queried_object();
+              $cat_slug =  $term->slug;
+
+             //2. Hide Uncategorized
+          $cat_uncat = get_term_by( 'slug', 'Uncategorized', 'product_cat' );
+          $cat_id_uncat = $cat_uncat->term_id;
+
+            $taxonomy     = 'product_cat';
+            $orderby      = '';  
+            $show_count   = 0;     
+            $pad_counts   = 0;     
+            $hierarchical = 1;     
+            $title        = '';  
+            $empty        = 0;
+          $args = array(
+            'taxonomy'     => $taxonomy,
+            'orderby'      => $orderby,
+            'show_count'   => $show_count,
+            'pad_counts'   => $pad_counts,
+            'hierarchical' => $hierarchical,
+            'title_li'     => $title,
+            'hide_empty'   => $empty,
+            'parent'       => 0,
+           'exclude'      => array($cat_id_uncat),
+          
+          );
+
+          $prod_categories = get_terms( $args);
+
+             
+             
+             
+             foreach( $prod_categories as $prod_cat ) :
+            $queried_object = get_queried_object();
+            $taxonomies = $queried_object->taxonomy;
+            $term_id = $queried_object->term_id;  
+            $state_coverage = get_field('broadband_coverage',$prod_cat);
+            $state_average_speed = get_field('average_state_speed',$prod_cat);
+            $cat_thumb_id = get_woocommerce_term_meta( $prod_cat->term_id, 'thumbnail_id', true );
+            $shop_catalog_img = wp_get_attachment_image_src( $cat_thumb_id, 'shop_catalog' );
+            $term_link = get_term_link( $prod_cat, 'product_cat' );
+
+            
+            
+               
+              ?>
+                <tr class="align-center">
+  
+                
+              <td class="body-item mbr-fonts-style display-7">
+                <a href="<?php echo $term_link; ?>"><?php echo $prod_cat->name; ?>
+                </a>
+              </td>
+              <td class="body-item mbr-fonts-style display-7"><?php echo $state_coverage; ?> %</td>
+              <td class="body-item mbr-fonts-style display-7"><?php echo $state_average_speed; ?> Mbps</td>
+              <td class="body-item mbr-fonts-style display-7">
+                <a href="<?php echo $term_link; ?>"><strong>View</strong>
+                </a>
+              </td>
+
+            </tr> 
+
+              <?php endforeach;wp_reset_query(); 
+                ?>
+
+             
+
+
+            </tbody>
+          </table>
+        </div>
+        <div class="container table-info-container">
+          <div class="row info">
+            <div class="col-md-6">
+              <div class="dataTables_info mbr-fonts-style display-7">
+                <span class="infoBefore">Showing</span>
+                <span class="inactive infoRows"></span>
+                <span class="infoAfter">entries</span>
+                <span class="infoFilteredBefore">(filtered from</span>
+                <span class="inactive infoRows"></span>
+                <span class="infoFilteredAfter"> total entries)</span>
+              </div>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
 
        
        <!--  <ul class="pagination justify-content-center mb-4">
@@ -132,17 +184,12 @@ get_header();
       <!-- Sidebar Widgets Column -->
       <div class="col-md-4">
 
-      <!-- Side Widget -->
-        <div class="card my-4">
-          <h5 class="card-header pute">About Us</h5>
-          <div class="card-body">
-           Internet Service USA, is a nationwide <a href="https://internetserviceusa.com/usa/all-providers.php">internet service provider</a>. Our focus is on assisting you to find the best internet, cable, and phone service provider in your region. To us, it is not just providing you with a list of internet service providers in your area. Our agents have spent years analyzing and scrutinizing internet providers so that we can provide accurate results.
-          </div>
-        </div>
+        <!-- Search Widget -->
+        <?php get_template_part('template-parts/search-city');?>
 
         <!-- Categories Widget -->
         <div class="card my-4">
-          <h5 class="card-header pute">Categories</h5>
+          <h5 class="card-header pute"> Post Categories</h5>
           <div class="card-body">
             <div class="row">
               <div class="col-lg-6">
@@ -178,54 +225,17 @@ get_header();
             </div> -->
           </div>
         </div>
-      </div>
 
-        
-
-          <div class="card my-4" style="margin-bottom: 50px!important;">
-          <h5 class="card-header pute">Popular Article</h5>
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header pute">About Us</h5>
+          <div class="card-body">
+            Internet Service USA, is a nationwide <a href="https://internetserviceusa.com/usa/all-providers.php">internet service provider</a>. Our focus is on assisting you to find the best internet, cable, and phone service provider in your region. To us, it is not just providing you with a list of internet service providers in your area. Our agents have spent years analyzing and scrutinizing internet providers so that we can provide accurate results.
+          </div>
         </div>
-                    <?php
-                    $current_post = $post->ID;
-               $args = array(
-             'post_type' => 'post',
-             'order'      => 'ASC',
-             'posts_per_page' => 4,
-             'post_status' => 'publish',
-              );
 
-              $post_query = new WP_Query($args);
-            if($post_query->have_posts() ) {
-              while($post_query->have_posts() ) {
-              $post_query->the_post();
-            ?>
-
-    
-    <div class="card my-4" style="margin-top: -50px!important;">
-      <div class="card-body">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <?php 
-                $size = 'featured-post-img';
-                $description = get_field('description');
-                $exurl = get_field('external_url');  
-                $imgURL = $imgHero['sizes'][$size];
-                $featuredImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'featured-post-img' );
-              ?>            
-          <strong class="d-inline-block mb-2 text-primary"><?php print_r(get_primary_category(get_the_ID()), true); ?></strong>
-          <a <?php if($exurl == True) :?>href="<?php echo $exurl; ?>" rel="nofollow" <?php else :?>href="<?php the_permalink(); ?>" <?php endif ;?>><h3 class="mb-0"><?php the_title(); ?></h3></a>
-          <div class="mb-1 text-muted"><?php echo get_the_date(); ?></div>
-
-          <p class="card-text mb-auto"><?php echo  wp_trim_words( $description, $num_words = 10, $more = '...');?></p>
-
-          <a  <?php if($exurl == True) :?>href="<?php echo $exurl; ?>" rel="nofollow" <?php else :?>href="<?php the_permalink(); ?>" <?php endif ;?>>Continue Reading....</a>
-      
       </div>
-    </div>
-    </div>
-    </div>
-   <?php  } } ?> 
-      </div>
+
     </div>
     <!-- /.row -->
 </div>

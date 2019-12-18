@@ -67,7 +67,7 @@ get_header();
 
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
         <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
+            <i class="fas fa-arrow-down"></i>
         </a>
     </div>
 </section>

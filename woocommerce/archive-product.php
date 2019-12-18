@@ -15,7 +15,7 @@ if ( function_exists('yoast_breadcrumb') ) {
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(3, 58, 129);"></div>
 
     <div class="container align-center">
         <div class="row justify-content-md-center">
@@ -31,7 +31,7 @@ if ( function_exists('yoast_breadcrumb') ) {
     </div>
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
         <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
+            <i class="fas fa-arrow-down"></i>
         </a>
     </div>
 </section>
@@ -151,29 +151,14 @@ if ( function_exists('yoast_breadcrumb') ) {
       <!-- Sidebar Widgets Column -->
       <div class="col-md-4">
 
-        <!-- Search Widget -->
-        <div class="card my-4">
-          <h5 class="card-header pute">Zip Code Search</h5>
-          <div class="card-body">
-            <div class="input-group">
-              <!-- <input type="text" class="form-control" placeholder="Search for...">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button">Go!</button>
-              </span> -->
-              <form role="search" method="get" class="search-field" action="<?php echo esc_url( home_url( '/' ) ) ?>">
-          <label>
-            <span class="screen-reader-text"><?php _x( 'Search for:', 'label' )?></span>
-            <input type="search" class="zip" placeholder="<?php echo esc_attr_x( ' Enter Zip Code ', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" />
-          </label>
-              <!-- <button type="submit" class="search-submit"><i class="fa fa-search"></i></button> -->
-          </form>
-            </div>
-          </div>
-        </div>
+        
+         <!-- Search Widget -->
+        <?php get_template_part('template-parts/search-city');?>
+
 
         <!-- Categories Widget -->
         <div class="card my-4">
-          <h5 class="card-header pute">Categories</h5>
+          <h5 class="card-header pute">Post Categories</h5>
           <div class="card-body">
             <div class="row">
               <div class="col-lg-6">
@@ -239,7 +224,7 @@ if ( function_exists('yoast_breadcrumb') ) {
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(3, 58, 129);"></div>
 
     <div class="container align-center">
         <div class="row justify-content-md-center">
@@ -255,7 +240,7 @@ if ( function_exists('yoast_breadcrumb') ) {
     </div>
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
         <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
+            <i class="fas fa-arrow-down"></i>
         </a>
     </div>
 </section>
@@ -392,28 +377,12 @@ if ( function_exists('yoast_breadcrumb') ) {
       <div class="col-md-4">
 
         <!-- Search Widget -->
-        <div class="card my-4">
-          <h5 class="card-header pute">Zip Code Search</h5>
-          <div class="card-body">
-            <div class="input-group">
-              <!-- <input type="text" class="form-control" placeholder="Search for...">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button">Go!</button>
-              </span> -->
-              <form role="search" method="get" class="search-field" action="<?php echo esc_url( home_url( '/' ) ) ?>">
-          <label>
-            <span class="screen-reader-text"><?php _x( 'Search for:', 'label' )?></span>
-            <input type="search" class="zip" placeholder="<?php echo esc_attr_x( ' Enter Zip Code ', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" />
-          </label>
-              <!-- <button type="submit" class="search-submit"><i class="fa fa-search"></i></button> -->
-          </form>
-            </div>
-          </div>
-        </div>
+        <?php get_template_part('template-parts/search-city');?>
+
 
         <!-- Categories Widget -->
         <div class="card my-4">
-          <h5 class="card-header pute">Categories</h5>
+          <h5 class="card-header pute">Post Categories</h5>
           <div class="card-body">
             <div class="row">
               <div class="col-lg-6">

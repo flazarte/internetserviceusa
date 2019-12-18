@@ -23,24 +23,16 @@ get_header();
             <span class="mbr-icofont mbri-play" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
         </div> -->
 
-        <div class="container mt-5 pt-5 pb-5">
+        <div class="container mt-5 pt-5 pb-5 align-center">
            <div class="media-container-column" data-form-type="formoid">
              
-                <form action="" method="GET" class="mbr-form form-with-styler">
-                    <div class="row justify-content-center form-inline">
-                        
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                        </div>
-                    </div>
-                    <div class="dragArea row justify-content-center form-inline">
-                        
-                        
-                        <div data-for="phone" class="col-auto form-group ">
-                            <input type="tel" name="searchField" placeholder="Enter Zip Code" data-form-field="Phone" class="form-control input-sm input-inverse display-7" id="phone-header13-u">
-                        </div>
-                        <div class="col-auto buttons-wrap"><button type="submit" class="btn btn-primary display-4" name="searchButton"><span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>Search</button></div>
-                    </div>
-                </form>
+                <form role="search" method="get" class="search-field" action="<?php echo esc_url( home_url( '/' ) ) ?>">
+          <label>
+            <span class="screen-reader-text"><?php _x( 'Search for:', 'label' )?></span>
+            <input type="search" class="zip" placeholder="<?php echo esc_attr_x( '   Ex: Detroit ', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" />
+          </label>
+              <!-- <button type="submit" class="search-submit"><i class="fa fa-search"></i></button> -->
+          </form>
         
             </div>
         </div>
@@ -51,7 +43,7 @@ get_header();
             <div class="modalWindow-container">
                 <div class="modalWindow-video-container">
                     <div class="modalWindow-video">
-                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="https://youtu.be/Nmu8-FezY-g"></iframe>
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="https://youtu.be/Nmu8-FezY-g" rel="nofollow"></iframe>
                     </div>
                     <a class="close" role="button" data-dismiss="modal">
                         <span aria-hidden="true" class="mbri-close mbr-iconfont closeModal"></span>
@@ -64,7 +56,7 @@ get_header();
 
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
         <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
+            <i class="fas fa-arrow-down"></i>
         </a>
     </div>
 </section>
@@ -100,171 +92,8 @@ get_header();
             </div>
         </div>
 
-    <div class="container">
-        <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="2000">
-            <div class="carousel-inner" data-visible="6">
-                
-                
-                
-                
-                
-            <div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a  href="https://www.centurylink.com/home/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-2-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a  href="https://business.comcast.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-3-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.cox.com/residential/home.html" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-4-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title="" ></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.dish.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-5-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://frontier.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-6-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.spectrum.com/ " target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-7-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.suddenlink.com/ " target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-9-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.sprint.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-8-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.timewarnercable.com/en/apps/my-twc.html" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-10-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.att.com/wireless/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-11-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.adt.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-1-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.hughesnet.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-12-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.verizonwireless.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-13-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.att.com/tv/u-verse.html" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-14-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.vivint.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-15-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title="">
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.directv.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-16-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.xfinity.com/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-17-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><div class="carousel-item ">
-                    <div class="media-container-row">
-                        <div class="col-md-12">
-                            <div class="wrap-img "><a href="https://www.optimum.net/" target="_blank">
-                                <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-18-250x130.jpg" class="img-responsive clients-img" alt="internet service usa" title=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div></div>
-            <div class="carousel-controls">
-                <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev">
-                    <span aria-hidden="true" class="mbri-left mbr-iconfont"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next">
-                    <span aria-hidden="true" class="mbri-right mbr-iconfont"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-    </div>
+        <?php get_template_part( 'template-parts/partners-providers'); ?>
+
 </section>
 
 <section class="tabs2 cid-rtl6tVf4R5" id="tabs2-l">
@@ -697,7 +526,7 @@ get_header();
 <div class="testimonials-item"  >
         <div class="user row">
           <div class="col-lg-3 col-md-4">
-            <div class="user_image"><a href="https://www.adt.com/" target="_blank">
+            <div class="user_image"><a href="https://www.adt.com/" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-1-250x130.jpg" alt="internet service usa" title="" ></a>
               <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
                  ADT Home Security
@@ -1045,8 +874,8 @@ Home Security Bundles
 
 <div id="google-reviews"></div>
 
-<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css" rel="nofollow">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/gh/stevenmonson/googleReviews@6e8f0d794393ec657dab69eb1421f3a60add23ef/google-places.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDS8_cZriNtzk5Ss-vaRsQ8lzu3D3oSXq8&signed_in=true&libraries=places"></script>
 
@@ -1061,7 +890,7 @@ jQuery(document).ready(function( $ ) {
 });
 </script>
 <br>
-<div class="mbr-section-btn align-center"><a class="btn btn-sm btn-primary display-4" href="https://www.google.com.bd/search?q=Internet+Service+USA,+7263+Grandville+Ave,+Detroit,+MI+48228,+USA&ludocid=14217752767816470950&gws_rd=ssl#lrd=0x883b35fcf30e7caf:0xc54f9ad03e0711a6,1"></span>View All Reviews?</a>
+<div class="mbr-section-btn align-center"><a class="btn btn-sm btn-primary display-4" href="https://www.google.com.bd/search?q=Internet+Service+USA,+7263+Grandville+Ave,+Detroit,+MI+48228,+USA&ludocid=14217752767816470950&gws_rd=ssl#lrd=0x883b35fcf30e7caf:0xc54f9ad03e0711a6,1" rel="nofollow"></span>View All Reviews?</a>
 </div><br>
 </section>
 
