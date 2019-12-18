@@ -109,7 +109,7 @@ get_header();
             $cat_thumb_id = get_woocommerce_term_meta( $prod_cat->term_id, 'thumbnail_id', true );
             $shop_catalog_img = wp_get_attachment_image_src( $cat_thumb_id, 'shop_catalog' );
             $term_link = get_term_link( $prod_cat, 'product_cat' );
- 
+
               ?>
                 <tr class="align-center">
   
