@@ -1,4 +1,20 @@
 
+ <div class="container mb-5">
+            <div class="media-container-row">
+                <div class="col-12 align-center">
+                    <h2 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                        Our Partners
+                    </h2>
+                    
+                </div>
+            </div>
+        </div>
+    
+
+
+
+
+
     <div class="container">
         <div class="carousel slide" role="listbox" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="2000">
             <div class="carousel-inner" data-visible="6">
@@ -154,11 +170,11 @@
                 </div></div>
             <div class="carousel-controls">
                 <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev">
-                    <span aria-hidden="true" class="mbri-left mbr-iconfont"></span>
+                    <span aria-hidden="true" class="mbri-left mbr-iconfont"><i class="fa fa-arrow-left"></i></span>
                     <span class="sr-only">Previous</span>
                 </a>
                 <a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next">
-                    <span aria-hidden="true" class="mbri-right mbr-iconfont"></span>
+                    <span aria-hidden="true" class="mbri-right mbr-iconfont"><i class="fa fa-arrow-right"></i></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
