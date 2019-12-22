@@ -15,8 +15,8 @@ get_header();
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Internet Service Provider USA</h1>
+                <h2 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    Internet Service Provider USA</h2>
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">Internet Service USA connects you with the best internet service providers and we take time to study each of them.</p>
                 <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://internetserviceusa.com/usa/search.php" target="_blank"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Zip Code Search</a> 
@@ -250,8 +250,8 @@ get_header();
     <div class="container align-left">
         <div class="media-container-column mbr-white col-md-12">
             
-            <h1 class="mbr-section-title py-3 mbr-fonts-style display-1">Internet Service USA with <strong>Home Security&nbsp;</strong>bundles! Stay safe in <strong>Affordable Price&nbsp;</strong>.
-            </h1>
+            <h2 class="mbr-section-title py-3 mbr-fonts-style display-1">Internet Service USA with <strong>Home Security&nbsp;</strong>bundles! Stay safe in <strong>Affordable Price&nbsp;</strong>.
+            </h2>
             <p class="mbr-text py-3 mbr-fonts-style display-2">
                 With the right security system, you’ll pay lower insurance premiums and be at peace knowing your family is safe. Get in touch with our agents today and we’ll help you to access a tamper-proof home security system.
             </p>
@@ -649,7 +649,7 @@ Home Security Bundles
     <div class="container align-right">
         <div class="row">
             <div class="mbr-white col-lg-8 col-md-7 content-container">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1"><br><br><br>CABLE TV</h1>
+                <h2 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1"><br><br><br>CABLE TV</h2>
                 <p class="mbr-text pb-3 mbr-fonts-style display-2"><strong>If you need a combined package where you’ll enjoy unlimited internet, cable, and phone service, talk to us. We promise to get you the best fit for your family at an affordable cost.</strong></p>
             </div>
             <div class="col-lg-4 col-md-5">
