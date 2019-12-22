@@ -15,8 +15,8 @@ get_header();
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
-                <h2 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Internet Service Provider USA</h2>
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    Internet Service Provider USA</h1>
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">Internet Service USA connects you with the best internet service providers and we take time to study each of them.</p>
                 <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://internetserviceusa.com/usa/search.php" target="_blank"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Zip Code Search</a> 
