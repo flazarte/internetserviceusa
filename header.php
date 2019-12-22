@@ -48,6 +48,10 @@
   src="https://www.facebook.com/tr?id=380577499221452&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<!-- Google Adsense -->
+<script data-ad-client="pub-4712491227153267" async src="https://pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+
 </head>
 
 
