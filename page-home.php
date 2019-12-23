@@ -230,6 +230,11 @@ get_header();
           <div class="card-body">
             Internet Service USA, is a nationwide <a href="https://internetserviceusa.com/usa/all-providers.php">internet service provider</a>. Our focus is on assisting you to find the best internet, cable, and phone service provider in your region. To us, it is not just providing you with a list of internet service providers in your area. Our agents have spent years analyzing and scrutinizing internet providers so that we can provide accurate results.
           </div>
+        </div>
+
+         <!-- Side Widget -->
+        <div class="card my-4">
+          <div class="card-body">
 
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Side Bard Ads -->
@@ -242,6 +247,7 @@ get_header();
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+          </div>
         </div>
 
       </div>
@@ -274,9 +280,8 @@ get_header();
 
     
 </section>
-
-<section class="mbr-section content4 cid-rtst08nocj" id="content4-1b">
-
+<section class="align-center">
+  
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
 <ins class="adsbygoogle"
@@ -288,6 +293,10 @@ get_header();
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+</section>
+
+<section class="mbr-section content4 cid-rtst08nocj" id="content4-1b">
 
     <div class="container" id="homesecurity">
         <div class="media-container-row">
