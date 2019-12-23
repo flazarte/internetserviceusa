@@ -279,7 +279,7 @@ get_header();
     </div>   
 </section>
 
-<section class="mbr-section content4 cid-rtst08nocj" id="content4-1b">
+<section class="container-fluid">
 
     <div class="container" id="homesecurity">
         <div class="media-container-row">

@@ -44,6 +44,7 @@ if ( function_exists('yoast_breadcrumb') ) {
       <div class="col-md-8">
 
 <section class="section-table cid-rtgvspRekY" id="table1-6">
+  <div class="container>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
 <ins class="adsbygoogle"
@@ -55,6 +56,8 @@ if ( function_exists('yoast_breadcrumb') ) {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+</div>
   
   
   <div class="container container-table">
@@ -211,6 +214,10 @@ if ( function_exists('yoast_breadcrumb') ) {
           <div class="card-body">
             Internet Service USA, is a nationwide <a href="https://internetserviceusa.com/usa/all-providers.php">internet service provider</a>. Our focus is on assisting you to find the best internet, cable, and phone service provider in your region. To us, it is not just providing you with a list of internet service providers in your area. Our agents have spent years analyzing and scrutinizing internet providers so that we can provide accurate results.
           </div>
+        </div>
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <div class="card-body">
 
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Side Bard Ads -->
@@ -223,6 +230,8 @@ if ( function_exists('yoast_breadcrumb') ) {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+          </div>
+
         </div>
 
       </div>
