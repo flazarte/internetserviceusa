@@ -230,12 +230,25 @@ get_header();
           <div class="card-body">
             Internet Service USA, is a nationwide <a href="https://internetserviceusa.com/usa/all-providers.php">internet service provider</a>. Our focus is on assisting you to find the best internet, cable, and phone service provider in your region. To us, it is not just providing you with a list of internet service providers in your area. Our agents have spent years analyzing and scrutinizing internet providers so that we can provide accurate results.
           </div>
+
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Side Bard Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4712491227153267"
+     data-ad-slot="2898573386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         </div>
 
       </div>
 
     </div>
     <!-- /.row -->
+
 </div>
   </div>
   <!-- /.container -->
@@ -264,7 +277,17 @@ get_header();
 
 <section class="mbr-section content4 cid-rtst08nocj" id="content4-1b">
 
-    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4712491227153267"
+     data-ad-slot="5204833219"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
     <div class="container" id="homesecurity">
         <div class="media-container-row">

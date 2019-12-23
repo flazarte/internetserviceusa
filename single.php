@@ -146,10 +146,32 @@ get_header();
         </ol>
       </div>
   </div>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Side Bard Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4712491227153267"
+     data-ad-slot="2898573386"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </aside><!-- /.blog-sidebar -->
 
   </div><!-- /.row -->
   <br>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4712491227153267"
+     data-ad-slot="5204833219"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   <h3 class="pb-4 mb-4 blue border-bottom">
         Related Articles
       </h3>
