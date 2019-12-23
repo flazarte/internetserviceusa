@@ -280,7 +280,7 @@ get_header();
 
     
 </section>
-<section class="align-center">
+<section class="header11 align-center" style="margin-bottom: 10px!important;">
   
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
