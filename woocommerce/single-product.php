@@ -91,6 +91,7 @@ get_header();
                 </div>
             </div>
         </div>
+        <div class="align-center">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Side Bard Ads -->
 <ins class="adsbygoogle"
@@ -102,6 +103,7 @@ get_header();
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 
         <?php get_template_part( 'template-parts/partners-providers'); ?>
 
@@ -200,6 +202,7 @@ get_header();
         </div>
     </div>
 </section>
+<div class="align-center">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
 <ins class="adsbygoogle"
@@ -211,6 +214,7 @@ get_header();
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 <section class="testimonials4 cid-rtlgSuX83j" id="testimonials4-q">
 
 
