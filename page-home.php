@@ -276,13 +276,16 @@ get_header();
             </p>
             <div class="mbr-section-btn py-4"><a class="btn btn-md btn-primary display-4" href="mailto:internetserviceusaseo@gmail.com"><span class="mbr-iconfont mbr-iconfont-btn"><i class="fa fa-envelope" aria-hidden="true"></i></span>REQUEST QUOTATION</a></div>
         </div>
-    </div>
-
-    
+    </div>   
 </section>
-<section class="header11 align-center" style="margin-bottom: 10px!important;">
-  
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<section class="mbr-section content4 cid-rtst08nocj" id="content4-1b">
+
+    <div class="container" id="homesecurity">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                
+             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -293,7 +296,10 @@ get_header();
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
+                
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="mbr-section content4 cid-rtst08nocj" id="content4-1b">
