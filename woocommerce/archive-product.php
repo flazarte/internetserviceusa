@@ -44,7 +44,7 @@ if ( function_exists('yoast_breadcrumb') ) {
       <div class="col-md-8">
 
 <section class="section-table cid-rtgvspRekY" id="table1-6">
-  <div class="container>
+  <div class="container" style="display: none;">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
 <ins class="adsbygoogle"
