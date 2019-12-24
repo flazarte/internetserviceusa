@@ -28,7 +28,7 @@
             </div>
 
              <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
-                    <a class="btn btn-md btn-blue-outline display-4" href="mailto:info@internetserviceusa.com"><span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;</span>Request Quotation</a></div>
+                    <a class="btn btn-md btn-blue-outline display-4" href="mailto:internetserviceusaseo@gmail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;</span>Request Quotation</a></div>
             
           </div>
         </div>

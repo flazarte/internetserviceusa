@@ -11,8 +11,8 @@
           <div class="col-lg-3 col-md-4">
             <div class="user_image"><a href="https://www.att.com/smallbusiness/explore/index.html" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/att-business.png" alt="internet service usa" title=""></a>
-               <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
-                 AT&amp;T Business </br>
+               <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7"><p>
+                 AT&amp;T Business </p></br>
                  <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star-half checked"></span>
@@ -41,9 +41,9 @@
      <div class="card">
   
   <div class="card-body ex">
-    <div class="card-header">
+    <div class="card-header"><p>
     AT&T BUSINESS INTERNET IN <?php echo $product->get_name(); ?>
-  </div>
+  </p></div>
     <div class="card card-body">
     <div class="row">
   <div class="col-sm-8">
@@ -95,7 +95,7 @@ AT&T INTERNET PLANS
   <div class="col-sm-8">
       <br>
       <div class="card ex">
-  <h5 class="card-header">AT&T ACCESS IN <?php echo $product->get_name(); ?></h5>
+  <p class="card-header">AT&T ACCESS IN <?php echo $product->get_name(); ?></p>
   <div class="card-body">
     <p class="card-text">AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 100% of <?php echo $product->get_name(); ?> with its DSL-based business internet services.</p>
   </div>

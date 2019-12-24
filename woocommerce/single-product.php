@@ -17,7 +17,7 @@ get_header();
         <h1 class="mbr-section-title align-center pb-3 mbr-bold mbr-fonts-style display-1">
             Internet Service Providers in <?php echo $product->get_name(); ?></h1>
 
-        <h2 class="mbr-section-subtitle mbr-fonts-style display-5 align-center"><strong>See Plans, Prices, &amp; Promos for every Internet Provider Near You.</strong></h2>
+        <p class="mbr-section-subtitle mbr-fonts-style display-5 align-center"><strong><?php echo $product->get_name(); ?> Plans, Prices, &amp; Promos for every <a style="text-decoration: none; color: white;font-weight: bold;" href="https://internetserviceusa.com">Internet Providers</a> Available Near You.</strong></p>
 
       <!--  <div class="mbr-media show-modal align-center pb-4 mb-4 pt-5" data-modal=".modalWindow">
             <span class="mbr-icofont mbri-play" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
@@ -55,7 +55,7 @@ get_header();
     </div>
 
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
+        <a href="#next" rel="nofollow">
             <i class="fas fa-arrow-down"></i>
         </a>
     </div>
@@ -68,8 +68,8 @@ get_header();
     <div class="container">
         <div class="media-container-row">
             <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Providers of Home Internet, Cable TV, Wireless &amp; Phone Services</strong></h2>
-                <h2 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">We've helped thousands of customers to find a convenient internet service provider through the years.</h2>
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Providers of Home Internet, Cable TV, Wireless &amp; Phone Services in <?php echo $product->get_name(); ?></strong></h2>
+                <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">We've helped thousands of customers to find a convenient internet service provider through the years.</p>
                 
             </div>
         </div>
@@ -79,14 +79,20 @@ get_header();
 <section class="clients cid-rtlH3cbrtj" data-interval="false" id="clients-x">
       
 
+    <?php
+      global $product;
+      //current number for city to call
+      $citynumber = get_field('city_number');
+
+ ?>
     
         <div class="container mb-5">
             <div class="media-container-row">
                 <div class="col-12 align-center">
-                    <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2"><em><strong>"<a href="tel:312-335-9100" class="text-primary">Call us:312-335-9100</a>"</strong></em></h2>
+                    <p class="mbr-section-title pb-3 mbr-fonts-style display-2"><em><strong>"<a href="tel:<?php echo $citynumber;?>" class="text-primary">Call us:<?php echo $citynumber;?></a>"</strong></em></p>
                     <br>
-                     <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2"> <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/chart.png" alt="internet service usa" title=""></h2>
-                     <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">Scan QR Code to Find Us on Social Media.</h2>
+                     <p class="mbr-section-title pb-3 mbr-fonts-style display-2"> <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/chart.png" alt="internet service usa" title=""></p>
+                     <p class="mbr-section-title pb-3 mbr-fonts-style display-2">Scan QR Code to Find Us on Social Media.</p>
                     
                 </div>
             </div>
@@ -115,13 +121,13 @@ get_header();
 
     
     <div class="container">
-        <h2 class="mbr-section-title align-center pb-5 mbr-fonts-style display-2"><strong>Our Top Internet Services in <?php echo $product->get_name(); ?></strong></h2>
+        <p class="mbr-section-title align-center pb-5 mbr-fonts-style display-2"><strong style="color: white;">Our Top Internet Services in <?php echo $product->get_name(); ?></strong></p>
         <div class="media-container-row">
             <div class="col-12 col-md-8">
                 <ul class="nav nav-tabs">
-                    <li class="nav-item"><a class="nav-link mbr-fonts-style show active display-7"  href="#tabs2-l_tab0" aria-selected="true" type="submit"><span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>&nbsp;Residential</a></li>
-                    <li class="nav-item"><a class="nav-link mbr-fonts-style show active display-7"  href="#tabs2-l_tab1" aria-selected="true"><span class="mbri-briefcase mbr-iconfont mbr-iconfont-btn" type="submit"></span>&nbsp;Business</a></li>
-                    <li class="nav-item"><a class="nav-link mbr-fonts-style show active display-7"  href="#tabs2-l_tab2" aria-selected="true"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn" type="submit"></span>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style show active display-7"  href="#tabs2-l_tab0" aria-selected="true" type="submit" rel="nofollow"><span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>&nbsp;Residential</a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style show active display-7"  href="#tabs2-l_tab1" aria-selected="true" rel="nofollow"><span class="mbri-briefcase mbr-iconfont mbr-iconfont-btn" type="submit"></span>&nbsp;Business</a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style show active display-7"  href="#tabs2-l_tab2" aria-selected="true" rel="nofollow"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn" type="submit"></span>
                             Mobile</a></li>
                     
                     
@@ -136,7 +142,7 @@ get_header();
 <section class="testimonials4 cid-rtlbaceGut" id="testimonials4-p">
 
   <div class="container">
-    <h2 class="pb-3 mbr-fonts-style mbr-white align-center display-2" id="tabs2-l_tab0"><strong>1. Residential Internet Service Provider in <?php echo $product->get_name(); ?></strong></h2>
+    <p class="pb-3 mbr-fonts-style mbr-white align-center display-2 blue" id="tabs2-l_tab0"><strong>1. Residential Internet Service Provider in <?php echo $product->get_name(); ?></strong></p>
     
     <div class="col-md-10 testimonials-container"> 
 
@@ -192,9 +198,9 @@ get_header();
     <div class="container">
         <div class="row justify-content-center content-row">
             <div class="media-container-column title col-12 col-lg-7 col-md-6">
-                <h2 class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-5"><strong>Compare your existing internet service provider?<br>Run a Speed Test!</strong></h2>
-                <h2 class="align-left mbr-bold mbr-fonts-style display-1">
-                    SPEED TEST</h2>
+                <p class="mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style display-5"><strong>Compare your existing internet service provider?<br>Run a Speed Test!</strong></p>
+                <p class="align-left mbr-bold mbr-fonts-style display-1 blue">
+                    SPEED TEST</p>
             </div>
             <div class="media-container-column col-12 col-lg-3 col-md-4">
                 <div class="mbr-section-btn align-right py-4"><a class="btn btn-sm btn-primary display-4 " href="https://internetserviceusa.com/speedtest/" target="_blank"><span class="mbri-speed mbr-iconfont mbr-iconfont-btn"></span>Run Speed Test</a></div>
@@ -219,7 +225,7 @@ get_header();
 
 
   <div class="container">
-    <h2 class="pb-3 mbr-fonts-style mbr-white align-center display-2" id="tabs2-l_tab1"><strong>2. Business Internet Service Provider in <?php echo $product->get_name(); ?></strong></h2>
+    <p class="pb-3 mbr-fonts-style mbr-white align-center display-2 blue" id="tabs2-l_tab1"><strong>2. Business Internet Service Provider in <?php echo $product->get_name(); ?></strong></p>
     
     <div class="col-md-10 testimonials-container"> 
 
@@ -258,7 +264,7 @@ get_header();
     ?>
   <!--Enterprise Header -->
   <br><br>
-     <h5 class="card-header" style="background-color: #ffffff!important;">ENTERPRISE PROVIDERS&nbsp;<span style="font-size:20px" class="fa" data-toggle="tooltip" data-html="true" title="<p>The providers listed below market to enterprise level businesses and/or goverments and may be able to provide more complex services such as MPLS, transport, backhaul, wholesale bandwidth, and point-to-point among others. Since enterprise service pricing vary dramatically depending on client needs, pricing information is not available.</p>">&#xf059;</span></h5> 
+     <p class="card-header" style="background-color: #ffffff!important;">ENTERPRISE PROVIDERS&nbsp;<span style="font-size:20px" class="fa" data-toggle="tooltip" data-html="true" title="<p>The providers listed below market to enterprise level businesses and/or goverments and may be able to provide more complex services such as MPLS, transport, backhaul, wholesale bandwidth, and point-to-point among others. Since enterprise service pricing vary dramatically depending on client needs, pricing information is not available.</p>">&#xf059;</span></p> 
 
      <?php
         //enterprise internet service provider
@@ -289,8 +295,8 @@ get_header();
 
 <section class="testimonials4 cid-rtlj3NqEAd" id="testimonials4-r">
   <div class="container">
-    <h2 class="pb-3 mbr-fonts-style mbr-white align-center display-2"  id="tabs2-l_tab2"><strong>
-        3. Mobile Internet Providers in Chicago, IL</strong></h2>
+    <p class="pb-3 mbr-fonts-style mbr-white align-center display-2 blue"  id="tabs2-l_tab2"><strong>
+        3. Mobile Internet Providers in <?php echo $product->get_name(); ?></strong></p>
     
     <div class="col-md-10 testimonials-container"> 
 
@@ -329,11 +335,11 @@ get_header();
     <div class="container">
         <div class="row main justify-content-center">
             <div class="media-container-column col-12 col-lg-3 col-md-4">
-                <div class="mbr-section-btn align-left py-4"><a class="btn btn-primary display-4" href="tel:312-335-9100"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span>312-335-9100</a></div>
+                <div class="mbr-section-btn align-left py-4"><a class="btn btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a></div>
             </div>
             <div class="media-container-column title col-12 col-lg-7 col-md-6">
                 <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">Still undecided? Talk to us.</h2>
-                <h2 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-5">Our agents will connect you with the right internet service provider that will meet your needs.</h2>
+                <p class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-5">Our agents in <?php echo $product->get_name(); ?> will connect you with the right internet service provider that will meet your needs.</p>
             </div>
         </div>
     </div>
@@ -348,7 +354,7 @@ get_header();
     <div class="container">
         <div class="media-container-row pt-5">
             <div class="accordion-content">
-                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Why Internet Service USA?</h2>
+                <h3 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Why Internet Service USA?</h3>
                 
                 <div id="bootstrap-accordion_18" class="panel-group accordionStyles accordion pt-5 mt-3" role="tablist" aria-multiselectable="true">
                         <div class="card">
@@ -361,7 +367,7 @@ get_header();
                             <div id="collapse1_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_18">
                                 <div class="panel-body p-4">
                                     <p class="mbr-fonts-style panel-text display-7">
-                                       At Internet Service USA, we’ll not just list down the available internet service providers. We take time to study each of them, and then connect you with the best. The information we provide regarding an internet provider is true so that you can make an informed decision.</p>
+                                       At Internet Service USA, we’ll not just list down the available internet service providers in <?php echo $product->get_name(); ?>. We take time to study each of them, and then connect you with the best. The information we provide regarding an internet provider is true so that you can make an informed decision.</p>
                                 </div>
                             </div>
                         </div>
@@ -376,7 +382,7 @@ get_header();
                             </div>
                             <div id="collapse2_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#bootstrap-accordion_18">
                                 <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">To ensure you get the best internet services, we’ll only recommend reputable internet service providers. Some of these are Xfinity, Wow, Viasat, AT&amp;T U-verse Plus Internet &amp; Directv, and Charter Spectrum, among others.
+                                    <p class="mbr-fonts-style panel-text display-7">To ensure you get the best internet services, we’ll only recommend reputable internet service providers in <?php echo $product->get_name(); ?>. Some of these are Xfinity, Wow, Viasat, AT&amp;T U-verse Plus Internet &amp; Directv, and Charter Spectrum, among others.
 <br>Whether you need a complete package that will cater for your internet, cable, and phone, we’ll recommend the best company. All you need is to talk to our agents and we’ll get you the best internet service for your home or office.</p>
                                 </div>
                             </div>
@@ -391,7 +397,7 @@ get_header();
                             </div>
                             <div id="collapse3_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_18">
                                 <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">For the years we’ve been in business, our agents are able to notice hidden fees charged by internet service providers. Whether its early termination fee, monthly equipment cost, activation fee, data caps, among others, we’ll point them out to you.</p>
+                                    <p class="mbr-fonts-style panel-text display-7">For the years we’ve been in business in <?php echo $product->get_name(); ?>, our agents are able to notice hidden fees charged by internet service providers. Whether its early termination fee, monthly equipment cost, activation fee, data caps, among others, we’ll point them out to you.</p>
                                 </div>
                             </div>
                         </div>
@@ -405,7 +411,7 @@ get_header();
                             </div>
                             <div id="collapse4_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_18">
                                 <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">For the years When you contact us for internet service, our friendly agents will take time to listen to your needs. Then, we’ll help you to choose the right internet service provider and the best package for your home or office. If you are tired of struggling with a dashboard to search for internet service in your area, talk to us. We’ll do the difficult task of choosing an internet service for you as you take care of more important issues.</p>
+                                    <p class="mbr-fonts-style panel-text display-7">For the years When you contact us for internet service in <?php echo $product->get_name(); ?>, our friendly agents will take time to listen to your needs. Then, we’ll help you to choose the right internet service provider and the best package for your home or office. If you are tired of struggling with a dashboard to search for internet service in your area, talk to us. We’ll do the difficult task of choosing an internet service for you as you take care of more important issues.</p>
                                 </div>
                             </div>
                         </div>
@@ -419,7 +425,7 @@ get_header();
                             </div>
                             <div id="collapse5_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_18">
                                 <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">Once you choose the internet, cable or phone service you prefer, we’ll ensure that it is installed without delays. You’ll not have to wait for too long to have internet service in your home! Do not settle for an internet service agent that will take ages to install your internet, cable or phone package.</p>
+                                    <p class="mbr-fonts-style panel-text display-7">Once you choose the internet, cable or phone service you prefer in <?php echo $product->get_name(); ?>, we’ll ensure that it is installed without delays. You’ll not have to wait for too long to have internet service in your home! Do not settle for an internet service agent that will take ages to install your internet, cable or phone package.</p>
                                 </div>
                             </div>
                         </div>
@@ -505,12 +511,12 @@ get_header();
                     Home Security</strong></h2>
                 
                 <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-5">In addition to providing you with affordable internet service, Internet Service USA will also help with your home security needs. Our agents will assist you to get an internet that will allow easy monitoring, simple to use, and affordable.
+                    <p class="mbr-text mbr-fonts-style display-5">In addition to providing you with affordable internet service, Internet Service USA in <?php echo $product->get_name(); ?> will also help with your home security needs. Our agents will assist you to get an internet that will allow easy monitoring, simple to use, and affordable.
 <br>
 <br>With the right security system, you’ll pay lower insurance premiums and be at peace knowing your family is safe. Get in touch with our agents today and we’ll help you to access a tamper-proof home security system.</p>
                 </div>
                 <div class="mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
-                    <a class="btn btn-sm btn-white-outline display-4" href="#secbundles"><span class="mbri-protect mbr-iconfont mbr-iconfont-btn"></span>Security Bundles</a></div>
+                    <a class="btn btn-sm btn-white-outline display-4" href="#secbundles" rel="nofollow"><span class="mbri-protect mbr-iconfont mbr-iconfont-btn"></span>Security Bundles</a></div>
             </div>
         </div>
     </div>
@@ -553,9 +559,9 @@ get_header();
           <div class="col-lg-3 col-md-4">
             <div class="user_image"><a href="https://www.adt.com/" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-1-250x130.jpg" alt="internet service usa" title="" ></a>
-              <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
+              <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7"><p>
                  ADT Home Security
-</div>
+</p></div>
                  
             <div class="user_desk mbr-light mbr-fonts-style align-left pt-2 display-7"></div>
             </div>
@@ -568,13 +574,13 @@ get_header();
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span><span>&nbsp;
-<i style="font-size:12px" class="fa" data-toggle="tooltip" data-placement="bottom" title="According to 80% user recommendation rating.">&#xf059;</i></span></br>ADT home security monitoring helps protect your home 24/7 with interconnected monitoring centers located nationwide.
+<i style="font-size:12px" class="fa" data-toggle="tooltip" data-placement="bottom" title="According to 80% user recommendation rating.">&#xf059;</i></span></br>ADT home security monitoring helps protect your home 24/7 with interconnected monitoring centers in <?php echo $product->get_name(); ?> and nationwide.
 <br><hr>
 Basic ADT Monitoring starting at $27.99/mo.</p>
             </div>  
 
              <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $adt;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $adt;?></a>
-                    <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-infoadt" role="button" aria-expanded="false" aria-controls="resi-infoadt"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
+                    <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-infoadt" role="button" aria-expanded="false" aria-controls="resi-infoadt" rel="nofollow"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
             
           </div>
         </div>
@@ -585,14 +591,14 @@ Basic ADT Monitoring starting at $27.99/mo.</p>
      <div class="card">
   
   <div class="card-body ex">
-    <div class="card-header">
+    <div class="card-header"><p>
     ADT Monitoring Packages
-  </div>
+  </p></div>
     <div class="card card-body">
     <div class="row">
-  <div class="col-sm-8">
+  <div class="col-sm-8"><p>
 Home Security Bundles
-    <div class="card">
+    </p><div class="card">
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><div class="row">
   <div class="col-sm-5 col-md-6" data-toggle="tooltip" data-placement="bottom" title="Click for more info"><a data-toggle="collapse" href="#at-resi" role="button" aria-expanded="false" aria-controls="resi-info">Basic:<strong>$27.99</strong>/mo </a> </div>
@@ -705,7 +711,7 @@ Home Security Bundles
       <div class="card ex">
   <h5 class="card-header">Get a Custom ADT Monitored Home Security System</h5>
   <div class="card-body">
-    <p class="card-text">We don’t believe in the phrase “one size fits all.” That’s why Protect Your Home, an ADT Authorized Premier Provider, customizes your entire experience–from your free quote to your quick and easy installation. The first thing you’ll need to do is research packages and pricing. Then call <a href="tel:<?php include '../includes/phone/adt.php';?>"><?php include '../includes/phone/adt.php';?></a> for more details.</p>
+    <p class="card-text">We don’t believe in the phrase “one size fits all.” That’s why Protect Your Home, an ADT Authorized Premier Provider, customizes your entire experience–from your free quote to your quick and easy installation. The first thing you’ll need to do is research packages and pricing in <?php echo $product->get_name(); ?>. Then call <a href="tel:<?php echo $citynumber;?>"><?php echo $citynumber;?></a> for more details.</p>
     <p class="card-text"><ul>
           <li>No drilling  into your walls</li>
           <li>Quick setup</li>
@@ -726,9 +732,9 @@ Home Security Bundles
           <div class="col-lg-3 col-md-4">
             <div class="user_image"><a href="https://www.vivint.com/" target="_blank" rel="nofollow">
               <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/image-15-250x130.jpg" alt="internet service usa" title="" ></a>
-              <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7">
+              <div class="user_name mbr-bold mbr-fonts-style align-left pt-3 display-7"><p>
                  VIVINT Smart Home
-</div>
+</p></div>
                  
             <div class="user_desk mbr-light mbr-fonts-style align-left pt-2 display-7"></div>
             </div>
@@ -741,13 +747,13 @@ Home Security Bundles
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span><span>&nbsp;
-<i style="font-size:12px" class="fa" data-toggle="tooltip" data-placement="bottom" title="According to 70% user recommendation rating.">&#xf059;</i></span></br>Vivint is best known for its well-designed equipment and easy-to-integrate home automation. Even its most basic equipment package includes professional installation, the Vivint Sky app, and plenty of sensors. Vivint also stands out for using cellular-based systems, catering to both homes and businesses, and making contract exceptions for military families.
+<i style="font-size:12px" class="fa" data-toggle="tooltip" data-placement="bottom" title="According to 70% user recommendation rating.">&#xf059;</i></span></br>Vivint is best known for its well-designed equipment and easy-to-integrate home automation in <?php echo $product->get_name(); ?>. Even its most basic equipment package includes professional installation, the Vivint Sky app, and plenty of sensors. Vivint also stands out for using cellular-based systems, catering to both homes and businesses, and making contract exceptions for military families.
 <br><hr>
 Vivint Monitoring starting at $29.99/mo.</p>
             </div>  
 
              <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $vivint;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $vivint;?></a>
-                    <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-info1" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
+                    <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-info1" role="button" aria-expanded="false" aria-controls="resi-info" rel="nofollow"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
             
           </div>
         </div>
@@ -758,14 +764,14 @@ Vivint Monitoring starting at $29.99/mo.</p>
      <div class="card">
   
   <div class="card-body ex">
-    <div class="card-header">
+    <div class="card-header"><p>
     Vivint Packages and Cost
-  </div>
+  </p></div>
     <div class="card card-body">
     <div class="row">
-  <div class="col-sm-8">
+  <div class="col-sm-8"><p>
 Home Security Bundles
-    <div class="card">
+    </p><div class="card">
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><div class="row">
   <div class="col-sm-5 col-md-6" data-toggle="tooltip" data-placement="bottom" title="Click for more info"><a data-toggle="collapse" href="#at-resi2" role="button" aria-expanded="false" aria-controls="resi-info">Home Security System Bundle:<strong>$11.83</strong>/mo </a> </div>
@@ -865,7 +871,7 @@ Home Security Bundles
       <div class="card ex">
   <h5 class="card-header">Vivint Monthly Monitoring and Pricing</h5>
   <div class="card-body">
-    <p class="card-text">Vivint offers three professional monitoring plans, all which offer 24/7 monitoring, app control, live service, and tech support.The Smart Protect plan costs $29.99 a month. The Smart Protect + Control plan costs $39.99 a month, while the Smart Complete plan adds video surveillance and local storage and costs $49.99 a month. Both require either a 4- or 5-year service agreement Then call <a href="tel:<?php include '../includes/phone/vivint.php';?>"><?php include '../includes/phone/vivint.php';?></a> for more details.</p>
+    <p class="card-text">Vivint offers three professional monitoring plans, all which offer 24/7 monitoring, app control, live service, and tech support.The Smart Protect plan costs $29.99 a month. The Smart Protect + Control plan costs $39.99 a month, while the Smart Complete plan adds video surveillance and local storage and costs $49.99 a month. Both require either a 4- or 5-year service agreement Then call <a href="tel:<?php echo $citynumber;?>"><?php echo $citynumber;?></a> for more details.</p>
     <p class="card-text"><ul>
           <li class="list-group-item col-sm-8"><div class="row">
 <a data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="resi-info">&nbsp;Smart Protect:<strong> $29.99</strong>/mo</a></div></li>
@@ -875,7 +881,7 @@ Home Security Bundles
          <li class="list-group-item col-sm-8"><div class="row">
 <a data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="resi-info">&nbsp;Smart Complete:<strong> $49.99</strong>/mo</a></div></li>
     </ul></p>
-    <p class="card-text">Vivint Security systems use wireless technology for clean installation, which is always set up by a pro.</p>
+    <p class="card-text">Vivint Security systems use <a href="https://en.wikipedia.org/wiki/Wireless" target="_blank" rel="nofollow">wireless technology</a> for clean installation, which is always set up by a pro.</p>
   </div>
 </div>
   </div>

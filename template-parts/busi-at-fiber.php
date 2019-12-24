@@ -42,9 +42,9 @@
      <div class="card">
   
   <div class="card-body ex">
-    <div class="card-header">
+    <div class="card-header"><p>
     AT&T INTERNET IN <?php echo $product->get_name(); ?>
-  </div>
+  </p></div>
     <div class="card card-body">
     <div class="row">
   <div class="col-sm-8">
@@ -68,7 +68,7 @@ AT&T FIBER PLANS
 
   </ul>
    <div class="card ex">
-  <h5 class="card-header">AT&T FIBER IN <?php echo $product->get_name(); ?></h5>
+  <p class="card-header">AT&T FIBER IN <?php echo $product->get_name(); ?></p>
   <div class="card-body">
     <p class="card-text">AT&T offers a small business internet plan for $50.00/mo with download speeds up to 50mbps. AT&T covers about 12% of <?php echo $product->get_name(); ?> with its fiber-based business internet services.</p>
    

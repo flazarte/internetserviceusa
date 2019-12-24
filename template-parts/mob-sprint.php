@@ -39,9 +39,9 @@
      <div class="card">
   
   <div class="card-body ex">
-    <div class="card-header">
+    <div class="card-header"><p>
     SPRINT INTERNET IN <?php echo $product->get_name(); ?>
-  </div>
+  </p></div>
     <div class="card card-body">
     <div class="row">
   <div class="col-sm-8">
@@ -88,7 +88,7 @@ SPRINT WIRELESS INTERNET PLANS
 
   </ul><br>
   <div class="card ex">
-  <h5 class="card-header">AT&T ACCESS IN <?php echo $product->get_name(); ?></h5>
+  <p class="card-header">AT&T ACCESS IN <?php echo $product->get_name(); ?></p>
   <div class="card-body">
     <p class="card-text">AT&T Wireless is a mobile internet service provider which offers service to 100% of the population in <?php echo $product->get_name(); ?>.</p>
   </div>

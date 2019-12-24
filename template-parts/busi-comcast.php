@@ -38,9 +38,9 @@
      <div class="card">
   
   <div class="card-body ex">
-    <div class="card-header">
+    <div class="card-header"><p>
     COMCAST INTERNET IN <?php echo $product->get_name(); ?>
-  </div>
+  </p></div>
     <div class="card card-body">
     <div class="row">
   <div class="col-sm-8">
@@ -141,7 +141,7 @@ COMCAST INTERNET PLANS
   <div class="col-sm-8">
       <p>We've noticed that plans offered by Comcast Business vary by region, so be sure to verify pricing and plan terms with them before ordering service as all plans or promotions may not be available in all areas or to all customers and can expire at any time. </p><br>
       <div class="card ex">
-  <h5 class="card-header">COMCAST BUSINESS IN <?php echo $product->get_name(); ?></h5>
+  <p class="card-header">COMCAST BUSINESS IN <?php echo $product->get_name(); ?></p>
   <div class="card-body">
     <p class="card-text">Comcast Business publicly lists small business internet plans ranging from $69.95-$499.95/mo with download speeds from 25mbps up to 1,000mbps. In total, Comcast Business offers cable-based business services to approximately 83% of <?php echo $product->get_name(); ?>.</p>
    
