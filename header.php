@@ -2,18 +2,19 @@
 
 <html <?php language_attributes(); ?> style="margin-top:0 !important;">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+<head>
 
 
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="google1ededdebcb8d5aeb">
+<meta name="p:domain_verify" content="75b0651412dde1a33798f18064d83846"/>
 
 
 
 <?php wp_head(); ?>
-<meta name="google-site-verification" content="google1ededdebcb8d5aeb">
-<meta name="p:domain_verify" content="75b0651412dde1a33798f18064d83846"/>
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141574368-1"></script>
 <script>
