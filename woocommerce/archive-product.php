@@ -44,22 +44,6 @@ if ( function_exists('yoast_breadcrumb') ) {
       <div class="col-md-8">
 
 <section class="section-table cid-rtgvspRekY" id="table1-6">
-  <div class="container" style="display: none;">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Banner Ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4712491227153267"
-     data-ad-slot="5204833219"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</div>
-  
-  
   <div class="container container-table">
       <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-1"><strong>List of Cities in <?php woocommerce_page_title(); ?></strong></h2>
       <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5"><strong>To ensure you get the best internet services, we’ll only recommend reputable internet service providers. Please select your location or city below.</strong></h3>
@@ -136,6 +120,21 @@ if ( function_exists('yoast_breadcrumb') ) {
       </div>
     </div>
 </section>
+
+<div class="container">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4712491227153267"
+     data-ad-slot="5204833219"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
 
        
        <!--  <ul class="pagination justify-content-center mb-4">
