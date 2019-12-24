@@ -102,7 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="navbar-brand">
                 <span class="navbar-logo">
                     <a href="<?php echo get_home_url(); ?>">
-                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/logo-122x87.png" style="height: 3.8rem;">
+                        <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/logo-122x87.png" style="height: 3.8rem;" alt="internet-service-usa" title="Internet Service USA">
                     </a>
                 </span>
                 
