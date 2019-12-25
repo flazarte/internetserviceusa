@@ -2,10 +2,10 @@
 
 <html <?php language_attributes(); ?> style="margin-top:0 !important;">
 
-<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="google1ededdebcb8d5aeb">
 <meta name="p:domain_verify" content="75b0651412dde1a33798f18064d83846"/>
@@ -14,7 +14,13 @@
 
 <?php wp_head(); ?>
 
-
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"7/J0u1WyR620WR", domain:"internetserviceusa.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=7/J0u1WyR620WR" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141574368-1"></script>
 <script>
