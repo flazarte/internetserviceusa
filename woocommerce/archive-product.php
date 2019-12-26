@@ -70,7 +70,7 @@ if ( function_exists('yoast_breadcrumb') ) {
               $term = get_queried_object();
               $cat_slug =  $term->slug;
 
-              $args = array( 'post_type' => 'product', 'product_cat' => $cat_slug,'set_order' => 'ASC' );
+              $args = array( 'post_type' => 'product', 'product_cat' => $cat_slug,'posts_per_page' => 1000,'set_order' => 'ASC' );
                 $loop = new WP_Query( $args );
               while ( $loop->have_posts() ) : $loop->the_post();
               global $product; 
@@ -240,6 +240,24 @@ if ( function_exists('yoast_breadcrumb') ) {
 </div>
   </div>
   <!-- /.container -->
+  <!-- amazon ads recom -->
+  <div class="container align-center">
+      <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "internetse023-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_linkid = "2d8de3b02aef83857c4b0477c2c2263f";
+amzn_assoc_design = "in_content";
+amzn_assoc_asins = "B076D1YSD1,B07CY4P882,B07BFS3G7P,B075PZ12B2,B07MXZ8F6Z";
+amzn_assoc_title = "Software Products Recommendations";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+  </div>
+  <!-- amazon end -->
+  
   <?php else : ?>
     <!-- Page Content -->
   <div class="container-fluid" style="margin-top: 100px;">

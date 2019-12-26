@@ -39,7 +39,7 @@
 		
 		wp_enqueue_style('fontawesome-css', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css', array(), null,'all'); 
 
-		wp_enqueue_style('fontawesome-old', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), null,'all'); 
+		//wp_enqueue_style('fontawesome-old', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', array(), null,'all'); 
 		
 		
 		wp_enqueue_style('main-css', get_template_directory_uri() . '/css/style.css', array(), null, 'all' );

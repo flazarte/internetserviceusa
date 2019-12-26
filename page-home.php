@@ -184,7 +184,7 @@ get_header();
 
         <!-- Search Widget -->
         <?php get_template_part('template-parts/search-city');?>
-
+        
         <!-- Categories Widget -->
         <div class="card my-4">
           <h5 class="card-header pute"> Post Categories</h5>
@@ -795,7 +795,29 @@ Home Security Bundles
             
         </div>
     </div>
+    <!--start-->
+    <div class="container align-center">
+    <!--amazon custom ads -->
+  <div class="align-center">
+      <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "internetse023-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_linkid = "b723d922a709f9f4172826c7580b1303";
+amzn_assoc_design = "in_content";
+amzn_assoc_asins = "B07GT7MVPM,B0009P657S,B00R92CL5E,B00PDLRHFW";
+amzn_assoc_title = "Amazon Best Seller";
+amzn_assoc_search_bar = "false";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+  </div>
+  <!--amazon custom ads end -->
+    </div>
 </section>
+
 
 <section class="clients cid-rtlH3cbrtj" data-interval="false" id="clients-x">
       

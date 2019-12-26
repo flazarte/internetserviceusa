@@ -155,7 +155,7 @@ get_header();
 </div>
   </div>
   <!-- /.container -->
-
+<div style="display:none;">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Banner Ads -->
 <ins class="adsbygoogle"
@@ -167,6 +167,25 @@ get_header();
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+</div>
+<!-- amazon ads recom -->
+  <div class="container align-center">
+      <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_tracking_id = "internetse023-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_linkid = "2d8de3b02aef83857c4b0477c2c2263f";
+amzn_assoc_design = "in_content";
+amzn_assoc_asins = "B076D1YSD1,B07CY4P882,B07BFS3G7P,B075PZ12B2,B07MXZ8F6Z";
+amzn_assoc_title = "Software Products Recommendations";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+  </div>
+  <!-- amazon end -->
 
 <?php
 get_footer();

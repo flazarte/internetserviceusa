@@ -160,5 +160,11 @@ get_header();
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
         </section>
+        <section class="container align-center">
+    <!--amazon  product recomedantions ads -->
+    <div id="amzn-assoc-ad-05bafae7-174e-4b67-8965-96dd9c3d9ced"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=05bafae7-174e-4b67-8965-96dd9c3d9ced"></script>
+    <!--end of amazon ads-->
+
+</section>
 <?php
 get_footer();

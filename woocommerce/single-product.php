@@ -435,11 +435,6 @@ get_header();
 
 
 <section class="cid-rtlGGjWW6v" id="social-buttons3-w">
-    
-    
-
-    
-
     <div class="container">
         <div class="media-container-row">
             <div class="col-md-9 align-center">
@@ -472,21 +467,20 @@ get_header();
     </div>
 </section>
 
-                
-                        
-                
-                        
-                
-                        
                 </div>
             </div>
             <div class="mbr-figure" style="width: 105%;">
-                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/at-t-internet-service-image-550x633.jpg" alt="internet service usaMobirise" title="">
+                    <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/at-t-internet-service-image-550x633.jpg" alt="internet service usa" title="">
             </div>
         </div>
     </div>
-</section>
+    </section>
+    <section class="container align-center">
+    <!--amazon  product recomedantions ads -->
+    <div id="amzn-assoc-ad-05bafae7-174e-4b67-8965-96dd9c3d9ced"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=05bafae7-174e-4b67-8965-96dd9c3d9ced"></script>
+    <!--end of amazon ads-->
 
+</section>
 <section class="header3 cid-rtpeCZzzxf mbr-parallax-background" id="header3-13">
 
     
