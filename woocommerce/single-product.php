@@ -14,14 +14,13 @@ get_header();
             
         </div>
 
-        <h1 class="mbr-section-title align-center pb-3 mbr-bold mbr-fonts-style display-1">
-            Internet Service Providers in <?php echo $product->get_name(); ?></h1>
+        <?php
 
-        <p class="mbr-section-subtitle mbr-fonts-style display-5 align-center"><strong><?php echo $product->get_name(); ?> Plans, Prices, &amp; Promos for every <a style="text-decoration: none; color: white;font-weight: bold;" href="https://internetserviceusa.com">Internet Providers</a> Available Near You.</strong></p>
+            global $product;
 
-      <!--  <div class="mbr-media show-modal align-center pb-4 mb-4 pt-5" data-modal=".modalWindow">
-            <span class="mbr-icofont mbri-play" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-        </div> -->
+            echo $product->description;
+
+          ?>
 
         <div class="container mt-5 pt-5 pb-5 align-center">
            <div class="media-container-column" data-form-type="formoid">
@@ -38,12 +37,33 @@ get_header();
         </div>
     </div>
 
-    <div>
-        <div class="modalWindow" style="display: none;">
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next" rel="nofollow">
+            <i class="fas fa-arrow-down"></i>
+        </a>
+    </div>
+</section>
+  
+    <?php
+      global $product;
+      //current number for city to call
+      $youtube_url = get_field('youtube_video_url');
+     
+
+ ?>
+<?php if($youtube_url) :?>
+<section class="mbr-section content4 cid-rtkVxuI8UD" id="content4-g" style="background: white!important;">
+
+  
+    <div class="container">
+        <div>
+        <div class="modalWindow">
             <div class="modalWindow-container">
                 <div class="modalWindow-video-container">
                     <div class="modalWindow-video">
-                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" data-src="https://youtu.be/Nmu8-FezY-g" rel="nofollow"></iframe>
+                      
+                        <iframe width="100%" height="500px" frameborder="0" allowfullscreen="1" data-src="<?php echo $youtube_url;?>" rel="nofollow" rel="nofollow"></iframe>
+
                     </div>
                     <a class="close" role="button" data-dismiss="modal">
                         <span aria-hidden="true" class="mbri-close mbr-iconfont closeModal"></span>
@@ -53,47 +73,36 @@ get_header();
             </div>
         </div>
     </div>
-
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next" rel="nofollow">
-            <i class="fas fa-arrow-down"></i>
-        </a>
     </div>
+
+
 </section>
+<?php endif ;?>
 
-<section class="mbr-section content4 cid-rtkVxuI8UD" id="content4-g">
-
-    
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="title col-12 col-md-8">
-                <h2 class="align-center pb-3 mbr-fonts-style display-2"><strong>Providers of Home Internet, Cable TV, Wireless &amp; Phone Services in <?php echo $product->get_name(); ?></strong></h2>
-                <p class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5">We've helped thousands of customers to find a convenient internet service provider through the years.</p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="clients cid-rtlH3cbrtj" data-interval="false" id="clients-x">
+<section class="clients cid-rtlH3cbrtj" data-interval="false" id="clients-x" style="background: white!important;">
       
 
     <?php
       global $product;
       //current number for city to call
       $citynumber = get_field('city_number');
+      $cityheadingtwo = get_field('city_heading_2_description');
 
  ?>
-    
+
+ <!-- heading two -->
+    <div class="container mb-5">
+            <div class="media-container-row">
+                <div class="col-12 align-center">
+                    <?php echo $cityheadingtwo;?>
+                </div>
+            </div>
+        </div>
+    <!-- end of heading two -->
         <div class="container mb-5">
             <div class="media-container-row">
                 <div class="col-12 align-center">
-                    <p class="mbr-section-title pb-3 mbr-fonts-style display-2"><em><strong>"<a href="tel:<?php echo $citynumber;?>" class="text-primary">Call us:<?php echo $citynumber;?></a>"</strong></em></p>
-                    <br>
-                     <p class="mbr-section-title pb-3 mbr-fonts-style display-2"> <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/chart.png" alt="internet service usa" title=""></p>
-                     <p class="mbr-section-title pb-3 mbr-fonts-style display-2">Scan QR Code to Find Us on Social Media.</p>
-                    
+                    <p class="mbr-section-title pb-3 mbr-fonts-style display-2"><em><strong><a href="tel:<?php echo $citynumber;?>" class="text-primary" style="font-size: 50px;">Call us:<?php echo $citynumber;?></a></strong></em></p>    
                 </div>
             </div>
         </div>
@@ -354,82 +363,16 @@ get_header();
     <div class="container">
         <div class="media-container-row pt-5">
             <div class="accordion-content">
-                <h3 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Why Internet Service USA?</h3>
                 
-                <div id="bootstrap-accordion_18" class="panel-group accordionStyles accordion pt-5 mt-3" role="tablist" aria-multiselectable="true">
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_18" aria-expanded="false" aria-controls="collapse1">
-                                    <h4 class="mbr-fonts-style display-5">
-                                        <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>We Take Time to Study Every Internet Service Provider.</h4>
-                                </a>
-                            </div>
-                            <div id="collapse1_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_18">
-                                <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">
-                                       At Internet Service USA, we’ll not just list down the available internet service providers in <?php echo $product->get_name(); ?>. We take time to study each of them, and then connect you with the best. The information we provide regarding an internet provider is true so that you can make an informed decision.</p>
-                                </div>
-                            </div>
-                        </div>
-                
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingTwo">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_18" aria-expanded="false" aria-controls="collapse2">
-                                    <h4 class="mbr-fonts-style mbr-fonts-style display-5">
-                                        <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>We Only Work with Top-Rated Internet Service Providers.</h4>
-                                </a>
-                                
-                            </div>
-                            <div id="collapse2_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#bootstrap-accordion_18">
-                                <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">To ensure you get the best internet services, we’ll only recommend reputable internet service providers in <?php echo $product->get_name(); ?>. Some of these are Xfinity, Wow, Viasat, AT&amp;T U-verse Plus Internet &amp; Directv, and Charter Spectrum, among others.
-<br>Whether you need a complete package that will cater for your internet, cable, and phone, we’ll recommend the best company. All you need is to talk to our agents and we’ll get you the best internet service for your home or office.</p>
-                                </div>
-                            </div>
-                        </div>
-                
-                        <div class="card">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse3_18" aria-expanded="false" aria-controls="collapse3">
-                                    <h4 class="mbr-fonts-style display-5">
-                                        <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>We'll Ensure You Don't Pay Any Hidden Fees.</h4>
-                                </a>
-                            </div>
-                            <div id="collapse3_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_18">
-                                <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">For the years we’ve been in business in <?php echo $product->get_name(); ?>, our agents are able to notice hidden fees charged by internet service providers. Whether its early termination fee, monthly equipment cost, activation fee, data caps, among others, we’ll point them out to you.</p>
-                                </div>
-                            </div>
-                        </div>
+         <!--  why internet service usa -->
+         <?php 
+          global $product;
+          $why_internet = get_field('why_internet_service_usa');
 
-                         <div class="card">
-                            <div class="card-header" role="tab" id="headingFour">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse4_18" aria-expanded="false" aria-controls="collapse3">
-                                    <h4 class="mbr-fonts-style display-5">
-                                        <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>Friendly Support Team Always at Your Service.</h4>
-                                </a>
-                            </div>
-                            <div id="collapse4_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_18">
-                                <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">For the years When you contact us for internet service in <?php echo $product->get_name(); ?>, our friendly agents will take time to listen to your needs. Then, we’ll help you to choose the right internet service provider and the best package for your home or office. If you are tired of struggling with a dashboard to search for internet service in your area, talk to us. We’ll do the difficult task of choosing an internet service for you as you take care of more important issues.</p>
-                                </div>
-                            </div>
-                        </div>
+          echo  $why_internet;
+         ?>
 
-                         <div class="card">
-                            <div class="card-header" role="tab" id="headingFive">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse5_18" aria-expanded="false" aria-controls="collapse3">
-                                    <h4 class="mbr-fonts-style display-5">
-                                        <span class="sign mbr-iconfont mbri-arrow-down inactive"></span>Fast Services.</h4>
-                                </a>
-                            </div>
-                            <div id="collapse5_18" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_18">
-                                <div class="panel-body p-4">
-                                    <p class="mbr-fonts-style panel-text display-7">Once you choose the internet, cable or phone service you prefer in <?php echo $product->get_name(); ?>, we’ll ensure that it is installed without delays. You’ll not have to wait for too long to have internet service in your home! Do not settle for an internet service agent that will take ages to install your internet, cable or phone package.</p>
-                                </div>
-                            </div>
-                        </div>
-
+         <!-- end why internet service usa -->
 
                         <br><br>
 
@@ -503,12 +446,15 @@ get_header();
             <div class="media-content">
                 <h2 class="mbr-section-title align-center pb-3 mbr-bold mbr-fonts-style display-1 mbr-white"><strong>
                     Home Security</strong></h2>
-                
-                <div class="mbr-section-text mbr-white pb-3 ">
-                    <p class="mbr-text mbr-fonts-style display-5">In addition to providing you with affordable internet service, Internet Service USA in <?php echo $product->get_name(); ?> will also help with your home security needs. Our agents will assist you to get an internet that will allow easy monitoring, simple to use, and affordable.
-<br>
-<br>With the right security system, you’ll pay lower insurance premiums and be at peace knowing your family is safe. Get in touch with our agents today and we’ll help you to access a tamper-proof home security system.</p>
-                </div>
+                <!--  why internet service usa -->
+         <?php 
+          global $product;
+          $city_secure = get_field('city_security');
+
+          echo $city_secure;
+         ?>
+
+         <!-- end why internet service usa -->
                 <div class="mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
                     <a class="btn btn-sm btn-white-outline display-4" href="#secbundles" rel="nofollow"><span class="mbri-protect mbr-iconfont mbr-iconfont-btn"></span>Security Bundles</a></div>
             </div>
