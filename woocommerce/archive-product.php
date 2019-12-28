@@ -11,7 +11,7 @@ if ( function_exists('yoast_breadcrumb') ) {
 }
 ?>
  </section>
- <section class="engine"><a href=""></a></section><section class="cid-rtgokFkwN6" id="header2-5">
+ <section class="engine"></section><section class="cid-rtgokFkwN6" id="header2-5">
 
     
 
@@ -20,17 +20,30 @@ if ( function_exists('yoast_breadcrumb') ) {
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Internet Service in <?php woocommerce_page_title(); ?> USA</h1>
+               <!--Heading 1 and paragraph -->
+               <?php
+
+              $term = get_queried_object();
+              $cat_slug =  $term->slug;
+
+              $args = array( 'post_type' => 'product' );
+                $loop = new WP_Query( $args );
+              while ( $loop->have_posts() ) : $loop->the_post();
+              global $product; 
                 
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">Internet Service USA connects you with the best internet service providers and we take time to study each of them.</p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://internetserviceusa.com/usa/search.php" target="_blank"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Zip Code Search</a> 
+              ?>
+                <?php echo $term->description;?>
+
+              <?php endwhile;wp_reset_query(); 
+                ?>
+               <!-- end of heading -->
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="#city_search" rel="nofollow"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Search Your City</a> 
                     <a class="btn btn-md btn-white-outline display-4" href="https://internetserviceusa.com/speedtest/" target="_blank"><span class="mbri-speed mbr-iconfont mbr-iconfont-btn"></span>Speedtest</a></div>
             </div>
         </div>
     </div>
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
+        <a href="#next" rel="nofollow">
             <i class="fas fa-arrow-down"></i>
         </a>
     </div>
@@ -45,8 +58,22 @@ if ( function_exists('yoast_breadcrumb') ) {
 
 <section class="section-table cid-rtgvspRekY" id="table1-6">
   <div class="container container-table">
-      <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-1"><strong>List of Cities in <?php woocommerce_page_title(); ?></strong></h2>
-      <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5"><strong>To ensure you get the best internet services, we’ll only recommend reputable internet service providers. Please select your location or city below.</strong></h3>
+      <!--heADING TWO-->
+      <?php
+        $queried_object = get_queried_object();
+        $taxonomy = $queried_object->taxonomy;
+        $term_id = $queried_object->term_id;
+
+        // load desc for this taxonomy term (term object)
+        $sec_descrip = get_field('heading_two', $queried_object);
+
+        // load desc for this taxonomy term (term string)
+        $sec_descrip = get_field('heading_two', $taxonomy . '_' . $term_id);
+
+?>
+
+<div class='term-description'><?php the_field( 'heading_two', $queried_object ); ?></div>
+      <!--END OF HEDING TWO-->
       <div class="table-wrapper">
         <div class="container">
           <div class="row search">
@@ -119,6 +146,7 @@ if ( function_exists('yoast_breadcrumb') ) {
         </div>
       </div>
     </div>
+
 </section>
 
 <div class="container">
@@ -237,6 +265,24 @@ if ( function_exists('yoast_breadcrumb') ) {
 
     </div>
     <!-- /.row -->
+
+    <!-- START THE FEATURETTES -->
+     <?php
+        $queried_object = get_queried_object();
+        $taxonomy = $queried_object->taxonomy;
+        $term_id = $queried_object->term_id;
+
+        // load desc for this taxonomy term (term object)
+        $sec_descrip = get_field('our_services', $queried_object);
+
+        // load desc for this taxonomy term (term string)
+        $sec_descrip = get_field('our_services', $taxonomy . '_' . $term_id);
+
+?>
+
+<div class='term-description'><?php the_field( 'our_services', $queried_object ); ?></div>
+
+    <!-- /END THE FEATURETTES -->
 </div>
   </div>
   <!-- /.container -->
@@ -257,6 +303,7 @@ amzn_assoc_title = "Software Products Recommendations";
 <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
   </div>
   <!-- amazon end -->
+
   
   <?php else : ?>
     <!-- Page Content -->
@@ -287,7 +334,7 @@ if ( function_exists('yoast_breadcrumb') ) {
         </div>
     </div>
     <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
+        <a href="#next" rel="nofollow">
             <i class="fas fa-arrow-down"></i>
         </a>
     </div>
@@ -479,9 +526,11 @@ if ( function_exists('yoast_breadcrumb') ) {
 
     </div>
     <!-- /.row -->
+
 </div>
   </div>
   <!-- /.container -->
+
   <?php endif ; ?>
   
 
