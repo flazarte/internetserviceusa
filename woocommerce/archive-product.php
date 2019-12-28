@@ -26,15 +26,9 @@ if ( function_exists('yoast_breadcrumb') ) {
               $term = get_queried_object();
               $cat_slug =  $term->slug;
 
-              $args = array( 'post_type' => 'product' );
-                $loop = new WP_Query( $args );
-              while ( $loop->have_posts() ) : $loop->the_post();
-              global $product; 
+               echo $term->description;
                 
-              ?>
-                <?php echo $term->description;?>
-
-              <?php endwhile;wp_reset_query(); 
+            
                 ?>
                <!-- end of heading -->
                 <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="#city_search" rel="nofollow"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Search Your City</a> 
