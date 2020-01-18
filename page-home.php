@@ -19,7 +19,7 @@ get_header();
                     Internet Service Provider USA</h1>
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">Internet Service USA connects you with the best internet service providers and we take time to study each of them.</p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://internetserviceusa.com/usa/search.php" target="_blank"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Zip Code Search</a> 
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="#city_search" target="_blank"><span class="mbri-map-pin mbr-iconfont mbr-iconfont-btn"></span>Search City</a> 
                     <a class="btn btn-md btn-white-outline display-4" href="https://internetserviceusa.com/speedtest/" target="_blank"><span class="mbri-speed mbr-iconfont mbr-iconfont-btn"></span>Speedtest</a></div>
             </div>
         </div>
