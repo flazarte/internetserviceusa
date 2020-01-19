@@ -1,7 +1,7 @@
   <?php
       global $product;
       //current number for city to call
-      $citynumber = get_field('city_number');
+      $citynumber = '+1-844-231-0064';//get_field('city_number');
 
  ?>
 
