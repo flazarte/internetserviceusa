@@ -85,7 +85,7 @@ get_header();
     <?php
       global $product;
       //current number for city to call
-      $citynumber = get_field('city_number');
+      $citynumber = '+1-833-492-4130';//get_field('city_number');
       $cityheadingtwo = get_field('city_heading_2_description');
 
  ?>
@@ -437,9 +437,9 @@ get_header();
                 <img src="<?php bloginfo('stylesheet_directory');?>/assets/images/smart-home-automation-1014x676.jpg" alt="internet service usaMobirise" title="">
             </div>
             <?php
-                $adt = get_field('adt');
-                $vivint = get_field('vivint');
-                $citynumber = get_field('city_number');
+                $adt = '+1-855-886-0725';//get_field('adt');
+                $vivint = '+1-833-492-4130';//get_field('vivint');
+                $citynumber = '+1-833-492-4130';//get_field('city_number');
 
 
             ?>
@@ -449,7 +449,7 @@ get_header();
                 <!--  why internet service usa -->
          <?php 
           global $product;
-          $city_secure = get_field('city_security');
+          $city_secure = '+1-833-492-4130';//get_field('city_security');
 
           echo $city_secure;
          ?>

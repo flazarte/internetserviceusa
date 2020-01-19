@@ -1,7 +1,7 @@
   <?php
       global $product;
       //current number for city to call
-      $citynumber = get_field('city_number');
+     // $citynumber = get_field('city_number');
 
  ?>
 
@@ -28,7 +28,7 @@
               <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs">CABLE</button></span></br>Comcast Business- Enterprise provides coverage for 82.92% of <?php echo $product->get_name(); ?>. The Fastest Speed is 987 Mbps.</p>
             </div>
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+1-855-616-9200"><span><i class="fa fa-phone" aria-hidden="true"></i></span>+1-855-616-9200</a>
                     <a class="btn btn-md btn-blue-outline display-4" href="mailto:internetserviceusaseo@gmail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;</span>Request Quotation</a></div>
             
           </div>

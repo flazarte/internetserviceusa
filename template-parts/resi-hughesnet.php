@@ -1,7 +1,7 @@
 <?php
       global $product;
       //current number for city to call
-      $citynumber = get_field('city_number');
+     // $citynumber = get_field('city_number');
 
  ?>
 
@@ -37,7 +37,7 @@
               <?php endif; ?>
             </div>
 
-            <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
+            <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+1-833-492-4075"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span>+1-833-492-4075</a>
                    <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#hugs-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
             
           </div>
@@ -83,7 +83,7 @@ HUGHESNET INTERNET PLANS
   <div class="card-header"><small>SET UP HUGHESNET INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span><?php echo $citynumber;?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:+1-833-492-4075" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;</span>+1-833-492-4075</a>
 </div>
 
   <div class="container">

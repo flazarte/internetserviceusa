@@ -357,7 +357,7 @@ get_header();
 Basic ADT Monitoring starting at $27.99/mo.</p>
             </div>  
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:8445931734"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-844-593-1734</a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+1-855-886-0725"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-855-886-0725</a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
             
           </div>
@@ -473,7 +473,7 @@ Home Security Bundles
   <div class="card-header"><small>SET UP ADT SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:8445931734" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-844-593-1734</a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:+1-855-886-0725" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-855-886-0725</a>
 </div>
  <div class="container">
   <div class="row align-center">
@@ -489,7 +489,7 @@ Home Security Bundles
       <div class="card ex">
   <h5 class="card-header">Get a Custom ADT Monitored Home Security System</h5>
   <div class="card-body">
-    <p class="card-text">We don’t believe in the phrase “one size fits all.” That’s why Protect Your Home, an ADT Authorized Premier Provider, customizes your entire experience–from your free quote to your quick and easy installation. The first thing you’ll need to do is research packages and pricing. Then call <a href="tel:8445931734">+1-844-593-1734</a> for more details.</p>
+    <p class="card-text">We don’t believe in the phrase “one size fits all.” That’s why Protect Your Home, an ADT Authorized Premier Provider, customizes your entire experience–from your free quote to your quick and easy installation. The first thing you’ll need to do is research packages and pricing. Then call <a href="tel:+1-855-886-0725">+1-855-886-0725</a> for more details.</p>
     <p class="card-text"><ul>
           <li>No drilling  into your walls</li>
           <li>Quick setup</li>
@@ -530,7 +530,7 @@ Home Security Bundles
 Vivint Monitoring starting at $29.99/mo.</p>
             </div>  
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:8445931734"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-844-593-1734</a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+1-833-492-4130"><span class="mbri-mobile mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-833-492-4130</a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#resi-info1" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;Security Packages</a></div>
             
           </div>
@@ -633,7 +633,7 @@ Home Security Bundles
   <div class="card-header"><small>SET UP VIVINT SMART HOME</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:8445931734" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-844-593-1734</a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:+1-833-492-4130" role="button"><span class="mbri-mobile2 mbr-iconfont mbr-iconfont-btn"><i class="fa fa-phone" aria-hidden="true"></i></span>+1-833-492-4130</a>
 </div>
  <div class="container">
   <div class="row align-center">
@@ -649,7 +649,7 @@ Home Security Bundles
       <div class="card ex">
   <h5 class="card-header">Vivint Monthly Monitoring and Pricing</h5>
   <div class="card-body">
-    <p class="card-text">Vivint offers three professional monitoring plans, all which offer 24/7 monitoring, app control, live service, and tech support.The Smart Protect plan costs $29.99 a month. The Smart Protect + Control plan costs $39.99 a month, while the Smart Complete plan adds video surveillance and local storage and costs $49.99 a month. Both require either a 4- or 5-year service agreement Then call <a href="tel:<?php include 'includes/phone/vivint.php';?>"><?php include 'includes/phone/vivint.php';?></a> for more details.</p>
+    <p class="card-text">Vivint offers three professional monitoring plans, all which offer 24/7 monitoring, app control, live service, and tech support.The Smart Protect plan costs $29.99 a month. The Smart Protect + Control plan costs $39.99 a month, while the Smart Complete plan adds video surveillance and local storage and costs $49.99 a month. Both require either a 4- or 5-year service agreement Then call <a href="tel:+1-833-492-4130">+1-833-492-4130</a> for more details.</p>
     <p class="card-text"><ul>
           <li class="list-group-item col-sm-8"><div class="row">
 <a data-toggle="collapse"  role="button" aria-expanded="false" aria-controls="resi-info">&nbsp;Smart Protect:<strong> $29.99</strong>/mo</a></div></li>

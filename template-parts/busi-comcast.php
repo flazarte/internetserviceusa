@@ -1,7 +1,7 @@
   <?php
       global $product;
       //current number for city to call
-      $citynumber = get_field('city_number');
+     // $citynumber = get_field('city_number');
 
  ?>
 
@@ -27,7 +27,7 @@
               <p class="mbr-fonts-style  display-7"><span><button class="btn btn-primary btn-xs"  data-toggle="collapse" href="#comcast-busi-info" role="button" aria-expanded="false" aria-controls="resi-info">CABLE</button></span></br>Comcast Business publicly lists small business internet plans ranging from $69.95-$499.95/mo with download speeds from 25mbps up to 1,000mbps. In total, Comcast Business offers cable-based business services to approximately 83% of <?php echo $product->get_name(); ?>.</p>
             </div>
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+1-855-616-9200"><span><i class="fa fa-phone" aria-hidden="true"></i></span>+1-855-616-9200</a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#comcast-busi-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
             
           </div>
@@ -119,7 +119,7 @@ COMCAST INTERNET PLANS
   <div class="card-header"><small>SET UP COMCAST INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:+1-855-616-9200" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i></span>+1-855-616-9200</a>
 </div>
 <div class="container">
   <div class="row align-center">

@@ -1,7 +1,7 @@
   <?php
       global $product;
       //current number for city to call
-      $citynumber = get_field('city_number');
+      //$citynumber = get_field('city_number');
 
  ?>
 <div class="testimonials-item">
@@ -28,7 +28,7 @@
             </div>
 
 
-             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:<?php echo $citynumber;?>"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
+             <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="tel:+1-844-593-1714"><span><i class="fa fa-phone" aria-hidden="true"></i></span>+1-844-593-1714</a>
                     <a class="btn btn-md btn-blue-outline display-4" data-toggle="collapse" href="#mobile-info" role="button" aria-expanded="false" aria-controls="resi-info"><span style="font-size:20px" class="fa" data-toggle="tooltip" data-placement="bottom" title="Click for Plans & Pricing.">&#xf059;</span>&nbsp;More Information</a></div>
             
           </div>
@@ -87,7 +87,7 @@ AT&T WIRELESS INTERNET PLANS
   <div class="card-header"><small>SET UP AT&T INTERNET SERVICE</small></div>
   <div class="card-body text-primary">
     <p class="card-text">Average wait time to speak with our customer service support is less than 30 seconds.</p></div>
-        <a class="btn btn-primary cs btn-sm align-center"  href="tel:<?php echo $citynumber;?>" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i></span><?php echo $citynumber;?></a>
+        <a class="btn btn-primary cs btn-sm align-center"  href="tel:+1-844-593-1714" role="button"><span><i class="fa fa-phone" aria-hidden="true"></i></span>+1-844-593-1714</a>
 </div>
 <div class="container">
   <div class="row align-center">
