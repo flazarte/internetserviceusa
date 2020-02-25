@@ -13,14 +13,12 @@ get_header();
         
       <!-- Blog Entries Column -->
       <div class="col-md-8">
-
-
-        <h1 class="my-4 blue"><?php echo single_cat_title("",false) ;?>
-        </h1>
-
         <?php
 
             $cur_cat = get_cat_ID( single_cat_title("",false) );
+            ?>
+             <h1 class="my-4 blue"><?php $cur_cat ?></h1>
+            <?php
 				    $args = array(
 				        'post_type' => 'post',
               'post_status' => 'publish',
