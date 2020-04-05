@@ -1,0 +1,160 @@
+#accordion-panel-fta_skins_panel{
+      display: block !important;
+}
+#sub-accordion-section-fta_layout, #accordion-section-fta_layout, #sub-accordion-section-fta_typography, #accordion-section-fta_typography, #sub-accordion-section-fta_header, #accordion-section-fta_header, #sub-accordion-section-fta_feed, #accordion-section-fta_feed
+  {
+
+
+  .modal{       width: 30%;   top: 30% !important;     background-color: #fff;
+        .mif-close-modal{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .mif-modal-content{
+            float: none;
+            margin: 0 auto;
+            display: table;
+            padding-top: 30px;
+            text-align: center;
+
+            h5{font-size: 40px;}
+            p{    font-size: 15px;     line-height: 1.8; text-align: center;}
+
+            .mif-lock-icon .material-icons{
+                color: #26a69a;
+                  font-size: 50px;
+            }
+
+             input[type=email]::placeholder {color:#444;}
+            .btn 
+            {
+          border-radius: 0;
+            }
+            input[type="submit"] {
+            line-height: 28px;
+            
+            }
+        }
+      }
+
+    .mif_customizer_popup  {
+          height: 45px;
+    line-height: 45px;
+    text-transform: capitalize;
+    width: 100%;
+
+        
+      }
+
+      a {
+        &:hover, &:focus{
+        color:#fff;
+        }
+      }
+
+    background-color:#fff !important;
+   select{
+   display:block;
+   } 
+	.customize-section-description {
+    font-size: 18px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+	}
+  label{height: auto;}
+	.customize-control {
+	     padding-bottom: 10px;
+	     margin-bottom:0px;
+	    .customize-control-title {
+		    font-size: 20px;
+		    margin-bottom: 10px;
+		        color: #555d66;
+          border-bottom: 2px solid #ddd;
+      padding-bottom: 20px;
+		}
+	}
+
+  #customize-controls .description{
+  text-transform: capitalize;
+  }
+
+  .customize-control .customize-inside-control-row
+  {
+          margin-left: 5px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+  }
+
+    	.select-wrapper{
+    		    position: relative;
+
+    		    .dropdown-content{
+    		    width: 100% !important;
+   				 z-index: 99999999999;
+   			    overflow: visible;
+   			    height:auto;
+   			    background-color: #7FC6A6;
+   			    border:none;
+   			    box-shadow:none;
+   				 	li{
+   				 	    float: left;
+					    position: relative;
+					    display: inline-block;
+					    span{
+					    color:#fff;
+					    }
+   				 	}
+    		    }
+    	}
+    .wp-picker-container .wp-color-result.button{
+        width: 100%;
+            height: 33px;
+        .wp-color-result-text{
+                height: 31px;
+              width: 75%;
+              float: right;
+              line-height: 31px;
+        }    
+    }  
+
+    .customize-control-select .customize-control-title, .customize-control-number .customize-control-title{
+      border:none;
+      padding-bottom: 0px;
+    }
+
+    .wp-picker-input-wrap{
+        width: 100%;
+          label{
+              width: 50%;
+
+              input[type=text].wp-color-picker{
+              width: 100%;
+             }
+          }
+        .button{
+            float: right;
+            width: 47%;
+            height: 30px;
+            margin-top: 15px;
+        }  
+    }
+    input[type=range]+.thumb.active{
+        position: relative;
+       background-color: #26a69a;
+          top: 0;
+      transform: none;
+
+      .value{
+          background-color: #26a69a;
+          padding: 10px 20px;
+          text-align: center;
+          width: 100%;
+          float: left;
+          margin: 0px;
+          font-size: 17px;
+          transform: none;
+      }
+    }
+}

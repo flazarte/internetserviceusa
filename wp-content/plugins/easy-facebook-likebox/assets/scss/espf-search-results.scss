@@ -1,0 +1,72 @@
+.plugin-card.plugin-card-easy-facebook-likebox-search{
+
+	.column-name h3:after{
+	content:'by Easy Soical Post Feed (already installed on your site)';
+	float: left;
+	font-size: 12px;
+	margin-top: 5px;
+	}
+	.espf-search-hide-btn{
+		    font-size: 12px;
+    font-style: italic;
+    cursor: pointer;
+	}
+
+	p{
+	    float: left;
+	}
+	.authors{
+	display:none;
+	}
+
+	.espf-search-btn{
+	vertical-align: top;
+    background-color: #0090d0;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    -moz-transition: border-color .5s ease;
+    -o-transition: border-color .5s ease;
+    -webkit-transition: border-color .5s ease;
+    transition: border-color .5s ease;
+    border-radius: 0;
+    height:auto;
+    	&:hover{
+    	background-color: #0685bd;
+    	 -moz-transition: border-color .5s ease;
+              -o-transition: border-color .5s ease;
+              -webkit-transition: border-color .5s ease;
+              transition: border-color .5s ease;
+    	}
+	}
+
+	.plugin-action-buttons{
+		
+	}
+
+	.espf-footer-wrap{
+		.espf-footer-left{
+		float: left;
+    	width: 73%;
+
+    	p{
+    	margin: 0;
+    	}
+
+		}
+		.espf-footer-right{
+		float: right;
+      	 width: 23%;
+      	 margin-top: 8px;
+
+      	 a{
+      	 font-style: italic;
+      	 }
+		}
+	}
+	.action-links{
+	    width: 150px;
+	}
+}
+

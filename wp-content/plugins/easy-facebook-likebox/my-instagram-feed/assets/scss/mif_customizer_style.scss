@@ -1,0 +1,198 @@
+#accordion-panel-mif_customize_panel{
+      display: block !important;
+}
+#sub-accordion-section-mif_layout, #accordion-section-mif_layout, #sub-accordion-section-mif_typography, #accordion-section-mif_typography, #sub-accordion-section-mif_header, #accordion-section-mif_header, #sub-accordion-section-mif_feed, #accordion-section-mif_feed, #sub-accordion-section-mif_feed_popup, #accordion-section-mif_feed_popup, #sub-accordion-section-mif_popup, #accordion-section-mif_popup 
+  {
+.customize-control-popup li{
+background: #F7F5F2;
+    display: block;
+    color: #333;
+    padding: 6px 20px;
+    padding-left: 8px;
+  }
+.customize-control-checkbox input, .customize-control-nav_menu_auto_add input, .customize-control-radio input{
+  margin-left:0 !important;
+  }
+  .fta-upgrade-btn{
+      padding: 10px;
+    height: auto;
+    font-size: 15px;
+    line-height: 2.5;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff8c00;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    width: 90%;
+    float: left;
+
+      &:hover{
+      opacity:.9;
+      transition: .2s ease-out;
+      }
+  }
+  .modal{       width: 38%;   top: 30% !important;     background-color: #fff;
+        .mif-close-modal{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .mif-modal-content{
+            float: none;
+            margin: 0 auto;
+            display: table;
+            padding-top: 30px;
+            text-align: center;
+
+            h5{font-size: 40px;}
+            p{    font-size: 15px;     line-height: 1.8; text-align: center;     border-bottom: 1px solid #ccc;
+    padding-bottom: 12px;}
+
+            .mif-lock-icon .material-icons{
+                color: #26a69a;
+                  font-size: 50px;
+            }
+
+             input[type=email]::placeholder {color:#444;}
+            .btn 
+            {
+             border-radius: 0;
+    color: #fff;
+    padding: 10px 25px;
+    height: auto;
+    font-size: 16px;
+    margin-top: 0;
+            }
+            input[type="submit"] {
+            line-height: 28px;
+            
+            }
+        }
+      }
+
+    .mif_customizer_popup  {
+          height: 45px;
+    line-height: 45px;
+    text-transform: capitalize;
+    width: 100%;
+
+        
+      }
+
+     
+
+    background-color:#fff !important;
+   select{
+   display:block;
+   } 
+	.customize-section-description {
+    font-size: 18px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+	}
+  label{height: auto;}
+	.customize-control {
+	     padding-bottom: 10px;
+	     margin-bottom:0px;
+	    .customize-control-title {
+		    font-size: 20px;
+		    margin-bottom: 10px;
+		        color: #555d66;
+          border-bottom: 2px solid #ddd;
+      padding-bottom: 20px;
+		}
+	}
+
+  #customize-controls .description{
+  text-transform: capitalize;
+  }
+
+  .customize-control .customize-inside-control-row
+  {
+          margin-left: 5px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+  }
+
+    	.select-wrapper{
+    		    position: relative;
+
+    		    .dropdown-content{
+    		    width: 100% !important;
+   				 z-index: 99999999999;
+   			    overflow: visible;
+   			    height:auto;
+   			    background-color: #7FC6A6;
+   			    border:none;
+   			    box-shadow:none;
+   				 	li{
+   				 	    float: left;
+					    position: relative;
+					    display: inline-block;
+					    span{
+					    color:#fff;
+					    }
+   				 	}
+    		    }
+    	}
+        input[type="range"]{
+      width: 100%;
+      }
+      .wp-picker-container{
+      width: 100%;
+      }
+    .wp-picker-container .wp-color-result.button{
+        width: 100%;
+            height: 33px;
+        .wp-color-result-text{
+                width: 80%;
+              float: right;
+              line-height: 31px;
+        }    
+    }  
+
+    .customize-control-select .customize-control-title, .customize-control-number .customize-control-title{
+      border:none;
+      padding-bottom: 0px;
+    }
+
+    .wp-picker-input-wrap{
+        width: 100%;
+          label{
+              width: 50%;
+
+              input[type=text].wp-color-picker{
+              width: 100%;
+             }
+          }
+        .button{
+            float: right;
+            width: 47%;
+            height: 30px;
+        }  
+    }
+    input[type=range]+.thumb.active{
+          position: relative;
+    background-color: #26a69a;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none;
+
+      .value{
+          background-color: #26a69a;
+          padding: 10px 20px;
+          text-align: center;
+          width: 100%;
+          float: left;
+          margin: 0px;
+          font-size: 17px;
+          transform: none;
+      }
+    }
+}

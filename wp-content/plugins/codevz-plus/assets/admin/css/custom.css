@@ -1,0 +1,139 @@
+/**
+ * Meta box
+*/
+.csf-metabox {}
+
+
+/**
+ * Classic theme pptions
+*/
+.csf-options {
+	width: 1170px;
+	max-width: 95%;
+	margin: 40px auto;
+	border: 1px solid #e4e4e4;
+	box-shadow: 0 1px 10px rgba(17, 17, 17, 0.05)
+}
+.csf-options .csf-header-inner {
+	background-color: #23282d;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+}
+.csf-options .csf-header-inner h1 {
+	font-size: 26px;
+	font-weight: bold
+}
+.csf-options .csf-footer {
+	color: #999;
+	background-color: #23282d;
+	border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+.csf-options .csf-restore,
+.csf-options .csf-nav ul ul:before,
+.csf-options .cz_advanced_tab {
+	display: none !important
+}
+.csf-options .csf-nav {
+	background: #23282d
+}
+.csf-options .csf-content {
+	min-height: 800px
+}
+.csf-options .csf-nav ul li a,
+.csf-options .csf-nav ul ul li a,
+.csf-options .csf-nav ul li .csf-section-active,
+.csf-options .csf-nav ul ul li .csf-section-active,
+.csf-options .csf-nav-background {
+	background-color: #23282d
+}
+.csf-options .csf-nav ul li+li a {
+	border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+.csf-options .csf-nav ul li a,
+.csf-options .csf-nav ul ul li a {
+	font-size: 14px;
+	color: #b5b5b5
+}
+.csf-options .csf-nav ul li .csf-section-active,
+.csf-options .csf-nav ul li a:hover,
+.csf-options .csf-nav .csf-tab-active > a,
+.csf-options .csf-nav .csf-tab-active > a:hover {
+	color: #fff !important;
+	font-weight: bold
+}
+.csf-options .csf-nav ul ul {
+	border: 0
+}
+.csf-options .csf-field h4 {
+	font-size: 16px
+}
+.csf-options .csf-help {
+	top: 32px;
+	right: 15px
+}
+.rtl .csf-options .csf-help {
+	right: auto;
+	left: 15px
+}
+.csf-options .csf-field-image_select label img {
+	border: 0;
+	opacity: .3
+}
+.csf-options .csf-field-slider .ui-slider {
+	background: rgba(167, 167, 167, 0.23) !important
+}
+.csf-options .csf-field-slider .ui-slider-range {
+	background: #a7a7a7 !important
+}
+.csf-options .csf-field-slider .ui-slider-handle {
+	height: 8px !important;
+	width: 8px !important;
+	background: #a7a7a7 !important;
+	top: -4px !important
+}
+.csf-options .cz_sk_btn {
+	padding: 0px 40px !important
+}
+.csf-options .csf-field-notice .csf-notice {
+	font-size: 16px;
+	line-height: 24px
+}
+.csf-options .csf-field-codevz_sizes i {
+	background: #23282d
+}
+.csf-options .csf-field-group .csf-help {
+	right: 0
+}
+.rtl .csf-options .csf-field-group .csf-help {
+	right: auto;
+	left: 0
+}
+.csf-options .csf-field-group .csf-field-codevz_sizes i.fa-link, 
+.csf-options .csf-field-group .csf-field-codevz_box_shadow i.fa-link {
+	right: 10px !important;
+	left: auto !important;
+	top: 24px !important;
+	color: #111
+}
+.rtl .csf-options .csf-field-group .csf-field-codevz_sizes i.fa-link, 
+.rtl .csf-options .csf-field-group .csf-field-codevz_box_shadow i.fa-link {
+	left: 10px !important;
+	right: auto !important
+}
+.csf-options #csf-tab-codevz_theme_options_demos .csf-field-notice {
+	width: 400px
+}
+.csf-options .csf-nav ul ul li a,
+.csf-options .csf-nav ul ul li .csf-section-active {
+    background: #32373c
+}
+.csf-options .csf-field-notice .csf-info {
+	color: #ffffff;
+	border-color: #32373c;
+	background-color: #32373c
+}
+
+
+
+
+
+
