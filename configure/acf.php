@@ -1,4 +1,0 @@
-<?php
-
-// ACF functions here
-
