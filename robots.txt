@@ -1,0 +1,94 @@
+User-agent: *
+Allow: /wp-admin/admin-ajax.php
+Allow: /*/*.css
+Allow: /*/*.js
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /readme.html
+Disallow: /license.txt
+Disallow: /xmlrpc.php
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: */disclaimer/*
+Disallow: *?attachment_id=
+Disallow: /privacy-policy
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /wp-content/uploads/
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Msnbot
+Allow: /
+
+User-agent: msnbot-media
+Allow: /wp-content/uploads/
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: YandexImages
+Allow: /wp-content/uploads/
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Qwantify
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Spam Backlink Blocker
+
+Disallow: /feed/
+Disallow: /feed/$
+Disallow: /comments/feed
+Disallow: /trackback/
+Disallow: */?author=*
+Disallow: */author/*
+Disallow: /author*
+Disallow: /author/
+Disallow: */comments$
+Disallow: */feed
+Disallow: */feed$
+Disallow: */trackback
+Disallow: */trackback$
+Disallow: /?feed=
+Disallow: /wp-comments
+Disallow: /wp-feed
+Disallow: /wp-trackback
+Disallow: */replytocom=
+
+# Allow/Disallow Ads.txt
+
+Allow: /ads.txt
+
+# Allow/Disallow App-ads.txt
+
+Allow: /app-ads.txt
+
+Sitemap: https://internetserviceusa.com/sitemap.xml
+Sitemap: https://internetserviceusa.com/sitemap_index.xml
+
+
+# This robots.txt file was created by Better Robots.txt (Index & Rank Booster by Pagup) Plugin. https://www.better-robots.com/

@@ -1,0 +1,73 @@
+Email configuration settings for “info@internetserviceusa.com”.
+
+
+Mail Client Manual Settings
+---------------------------
+
+Secure SSL/TLS Settings (Recommended)
+
+Username:
+
+info@internetserviceusa.com
+
+Password:
+
+Use the email account’s password.
+
+Incoming Server:
+
+mail.internetserviceusa.com
+
+  * IMAP Port: 993
+
+  * POP3 Port: 995
+
+Outgoing Server:
+
+mail.internetserviceusa.com
+
+  * SMTP Port: 465
+
+IMAP, POP3, and SMTP require authentication.
+
+Non-SSL Settings (NOT Recommended)
+
+Username:
+
+info@internetserviceusa.com
+
+Password:
+
+Use the email account’s password.
+
+Incoming Server:
+
+mail.internetserviceusa.com
+
+  * IMAP Port: 143
+
+  * POP3 Port: 110
+
+Outgoing Server:
+
+mail.internetserviceusa.com
+
+  * SMTP Port: 587
+
+IMAP, POP3, and SMTP require authentication.
+
+A .mobileconfig file for use with iOS for iPhone/iPad/iPod and MacOS® Mail.app® for Mountain Lion (10.8+) is attached to this message.
+
+This notice is the result of a request made by a computer with the IP address of “182.186.236.122” through the “cpanel” service on the server.
+
+The remote computer’s location appears to be: Pakistan (PK).
+
+The remote computer’s IP address is assigned to the provider: “USF DSLAM Central Pakistan Telecommuication company limited”
+
+The system generated this notice on Wednesday, May 15, 2019 at 11:16:15 PM UTC.
+
+Do not reply to this automated message.
+
+cP
+
+Copyright© 2019 cPanel, Inc.
